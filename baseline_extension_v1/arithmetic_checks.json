@@ -1,0 +1,26 @@
+{
+  "manual_cashflow_examples": [
+    {
+      "net_purchase": 4,
+      "expected": 4.6,
+      "computed": 4.6
+    },
+    {
+      "net_purchase": 1,
+      "expected": 1.2,
+      "computed": 1.2
+    },
+    {
+      "net_purchase": -2,
+      "expected": 0.08,
+      "computed": 0.07999999999999996
+    },
+    {
+      "net_purchase": 2,
+      "expected": 2,
+      "computed": 2.0
+    }
+  ],
+  "neutral_coefficients_checked_on_saved_cases": 13,
+  "additional_solver_calls": 0
+}

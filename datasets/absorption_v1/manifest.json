@@ -1,0 +1,26 @@
+{
+  "recipe": "six predeclared absorption variants",
+  "planned_configurations": 24,
+  "inputs_frozen_before_solving": true,
+  "run_id": "absorption_v1",
+  "input_sha256": {
+    "ABS-LOCAL-1-input.json": "97837366f4d8260eb6ff26bbea2403e801a7b9835d91adad7d5c755f61a93d27",
+    "ABS-LOCAL-2-input.json": "754a16c53daac0019f4d40da4c3bff1cc31df26dffecd011886ee52149f63323",
+    "ABS-LOCAL-3-input.json": "8616f086219e9fd1b46d20dcf1b7df84297c2e8a680f17fc040c1dc785b289bc",
+    "ABS-REMOTE-1-input.json": "9d7be8a5f752445e4ca1f7c62cc36aa4a7b64281a6a1fcd0f8d0fb9617d3bae0",
+    "ABS-REMOTE-2-input.json": "cd19096d1fbf40b198f4453b674a712b6e99fd819b36997739057fed72ff04a9",
+    "ABS-REMOTE-3-input.json": "88962896181f64b6e439f3d72b099a0ca7ad6be45b551fd8b328924228b3fc9f"
+  },
+  "source_sha256": {
+    "vpp_repair\\__init__.py": "59bb464929fd54549be59b469bff52c97590b070b8fa142a60d1ad516c717afd",
+    "vpp_repair\\absorption.py": "3758dc429d334c0a5f2b419048b02fbcd7580bf1b21ecdaa34e3aa5d2bcc1408",
+    "vpp_repair\\absorption_data.py": "f97195feb3945c2d471f3daf9fc717cba65692f7c0c3445dab74a730b33afefb",
+    "vpp_repair\\data.py": "5342d2c7dee826842b3c4beaaaf27494965a9f20b9cb20be0e3ab4f333644f11",
+    "vpp_repair\\model.py": "2f90955f5a9b2c27313619e7a466570f003609dd600d8a2b79df1c171b763fa3",
+    "vpp_repair\\pilot_data.py": "6a2fdbf70a1090f5a91963f96cbbd1244208caa4511cd2098a1d7b890c46bc0c",
+    "vpp_repair\\repair.py": "760c1baf407576ecf4fd05d6c912ddcbe32f515674b8f3c133e11c5c9f905b2b",
+    "vpp_repair\\verify.py": "868a9f920711e5fef28db616a48096291c2d9538d36b0d9e1dcd5cb5865e79a4",
+    "run_absorption.py": "20ab0104d99089071370287a84b9fa44fad6562fa653785009151694dc49e207",
+    "run_pilot.py": "2a26e6780bd1fa52e16143c3a5a4415743920a3ac7a529b25c02b4f8c07aa7cb"
+  }
+}

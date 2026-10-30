@@ -1,0 +1,4 @@
+# Accepted Windows CPython 3.11 environment. Base runtime remains unchanged.
+pyscipopt==6.3.0
+highspy==1.15.1
+numpy==1.24.3

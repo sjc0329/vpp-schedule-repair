@@ -1,0 +1,20 @@
+{
+  "all_passed": true,
+  "acceptance_groups": 10,
+  "original_core_unchanged": true,
+  "frozen_evaluation_evidence_unchanged": true,
+  "preserved_files": {
+    "main_stage1_v1": 123,
+    "main_stage2_v1": 124
+  },
+  "baseline_environment": "<original-workspace>\\.venv-baselines",
+  "parameter_calibration_executed": false,
+  "formal_comparison_executed": false,
+  "release_sha256": {
+    "BASELINE_ADAPTATION.md": "3c24dbce43136e7d659a799d392bbf0dbb685ebfb03805028408593e4870674b",
+    "requirements-baselines.txt": "98d5c2a7245bef891cf599cd4a5aa30ca05a1b3bea87c34991eac45a08dee77b",
+    "audit_baseline_acceptance.py": "ee0083bf6f678af3155e7367ca227d30a5b804e51ba87a476dee1026f53480a1",
+    "results\\baseline_acceptance_v1\\checks.json": "b8f005cafe5546ef626d7d6213eec2111da5090eebc2dd74f4cb7f68c58ff8dc",
+    "results\\baseline_acceptance_v1\\REPORT.md": "b92de8b2b74e71f1b56d0510258bf9fc1d6fb4dccdcd1e8b2d1a3f74afdc806f"
+  }
+}

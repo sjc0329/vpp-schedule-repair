@@ -1,0 +1,8 @@
+﻿reference,doi,focus,role,connection,evidence
+"Naughton et al., 2021",10.1109/TPWRS.2021.3062582,Robust scheduling and receding-horizon dispatch,Adapted tracking baseline,Power/state tracking preference,BASELINE_ADAPTATION.md
+"Koksalmis et al., 2025",,Runway rescheduling quality and stability,Adapted normalized scalar baseline,Normalized cost/stability decision mechanism,BASELINE_ADAPTATION.md
+"Cao et al., SEGAN 2026",10.1016/j.segan.2025.102109,Industrial production scheduling coordinated with VPP regulation,Problem/framing reference,Internal scheduling versus external service requirements,Publisher accessible sections; not a full replication
+"Nemati et al., SEGAN 2026",10.1016/j.segan.2026.102281,RVPP versus storage in energy/reserve markets,Experiment organization reference,Resource contribution and favorable/unfavorable operating regimes,Author draft arXiv:2507.22496v1; publication metadata verified
+"Nemati et al., SEGAN 2025",10.1016/j.segan.2025.101801,Asymmetric uncertainty and sequential-market bidding,Decision-sequence and parameter analysis reference,Earlier commitments and subsequent updated decisions,Author draft arXiv:2402.12032; distinguish draft from final version
+"Ledro et al., SEGAN 2022",10.1016/j.segan.2022.100704,Power/energy controllers with realistic EV response,Mechanism-analysis reference,Different performance indicators reveal different control effects,Author repository full text
+This study,,Event-after aggregate schedule repair under economic budgets,Proposed framework,Model update; aggregate D; actual participation N; cost C,"Current code, mathematical basis and audited experiments"

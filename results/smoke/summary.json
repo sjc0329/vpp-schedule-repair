@@ -1,0 +1,52 @@
+{
+  "purpose": "Correctness only; no empirical performance/speed claim",
+  "python": "3.11.5 | packaged by Anaconda, Inc. | (main, Sep 11 2023, 13:26:23) [MSC v.1916 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "highs": "1.15.1",
+  "numpy": "1.24.3",
+  "count": 4,
+  "passed": 4,
+  "failed": 0,
+  "unknown": 0,
+  "expected_physical_infeasible": 1,
+  "semantics": {
+    "event_id_collision": true,
+    "stale_event_version": true,
+    "checker_rejects_executed_prefix": true,
+    "checker_rejects_bus_violation": true,
+    "checker_rejects_stale_plan": true,
+    "checker_rejects_after_departure": true,
+    "checker_rejects_scope_violation": true,
+    "checker_rejects_cost_violation": true,
+    "idle_modes_not_counted_as_adjustments": true,
+    "checker_rejects_state_corruption": true
+  },
+  "elapsed_seconds": 0.24451029999181628,
+  "all_passed": true,
+  "cases": [
+    {
+      "case_id": "N1-S1",
+      "status": "PASS",
+      "error": null,
+      "classification": "VALIDATED_FEASIBLE"
+    },
+    {
+      "case_id": "N2-S1",
+      "status": "PASS",
+      "error": null,
+      "classification": "VALIDATED_FEASIBLE"
+    },
+    {
+      "case_id": "R1-S2",
+      "status": "PASS",
+      "error": null,
+      "classification": "VALIDATED_FEASIBLE"
+    },
+    {
+      "case_id": "R4-S3",
+      "status": "PASS",
+      "error": null,
+      "classification": "PROVEN_PHYSICALLY_INFEASIBLE"
+    }
+  ]
+}

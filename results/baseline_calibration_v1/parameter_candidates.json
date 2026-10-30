@@ -1,0 +1,241 @@
+{
+  "candidates": {
+    "tracking": {
+      "parameter_id": "T9",
+      "configuration": {
+        "penalty": 10.0,
+        "rho": 0.75
+      },
+      "valid_cases": 13,
+      "optimal_cases": 12,
+      "case_statuses": [
+        {
+          "case_id": "ECON-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 38.509477606240814,
+          "lower_bound": 38.509477606240814
+        },
+        {
+          "case_id": "ECON-2",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 38.526369144183406,
+          "lower_bound": 38.526369144183406
+        },
+        {
+          "case_id": "ECON-3",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 38.379110227551806,
+          "lower_bound": 38.379110227551806
+        },
+        {
+          "case_id": "SCOPE-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 44.236932985904694,
+          "lower_bound": 44.236932985904694
+        },
+        {
+          "case_id": "SCOPE-2",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 44.23693298652399,
+          "lower_bound": 44.23693298652399
+        },
+        {
+          "case_id": "SCOPE-3",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 44.23693298650484,
+          "lower_bound": 44.23693298650484
+        },
+        {
+          "case_id": "TIME-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 41.162313695936454,
+          "lower_bound": 41.162313695936454
+        },
+        {
+          "case_id": "TIME-2",
+          "status": "timelimit",
+          "has_valid_plan": true,
+          "absolute_gap": 36.566871210579336,
+          "objective": 42.23650850439509,
+          "lower_bound": 5.669637293815754
+        },
+        {
+          "case_id": "ABS-LOCAL-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 24.975393296057433,
+          "lower_bound": 24.975393296057433
+        },
+        {
+          "case_id": "ABS-LOCAL-2",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 20.474375938792456,
+          "lower_bound": 20.474375938792456
+        },
+        {
+          "case_id": "ABS-REMOTE-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 24.59820462267846,
+          "lower_bound": 24.59820462267846
+        },
+        {
+          "case_id": "ABS-REMOTE-2",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 22.176514315985173,
+          "lower_bound": 22.176514315985173
+        },
+        {
+          "case_id": "ABS-REMOTE-3",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 19.741260884851222,
+          "lower_bound": 19.741260884851222
+        }
+      ],
+      "scope": "Selected under the frozen 20-second calibration protocol; not a guarantee of globally best parameters or exact solutions for all cases."
+    },
+    "scalar": {
+      "parameter_id": "S5",
+      "configuration": {
+        "cost": 0.45,
+        "deviation": 0.45,
+        "participation": 0.1
+      },
+      "valid_cases": 13,
+      "optimal_cases": 13,
+      "case_statuses": [
+        {
+          "case_id": "ECON-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 0.01220781183281261,
+          "lower_bound": 0.01220781183281261
+        },
+        {
+          "case_id": "ECON-2",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 1.0658141036401503e-14,
+          "lower_bound": 1.0658141036401503e-14
+        },
+        {
+          "case_id": "ECON-3",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 0.04357631923457905,
+          "lower_bound": 0.04357631923457905
+        },
+        {
+          "case_id": "SCOPE-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 2.6645352591003757e-15,
+          "lower_bound": 2.6645352591003757e-15
+        },
+        {
+          "case_id": "SCOPE-2",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": -4.440892098500626e-15,
+          "lower_bound": -4.440892098500626e-15
+        },
+        {
+          "case_id": "SCOPE-3",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 2.6645352591003757e-15,
+          "lower_bound": 2.6645352591003757e-15
+        },
+        {
+          "case_id": "TIME-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 0.034272914278728805,
+          "lower_bound": 0.034272914278728805
+        },
+        {
+          "case_id": "TIME-2",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 0.016610230258595315,
+          "lower_bound": 0.016610230258595315
+        },
+        {
+          "case_id": "ABS-LOCAL-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 0.035962153667371766,
+          "lower_bound": 0.035962153667371766
+        },
+        {
+          "case_id": "ABS-LOCAL-2",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 0.002377523926063274,
+          "lower_bound": 0.002377523926063274
+        },
+        {
+          "case_id": "ABS-REMOTE-1",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 0.036987715351987305,
+          "lower_bound": 0.036987715351987305
+        },
+        {
+          "case_id": "ABS-REMOTE-2",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 0.027747437248123674,
+          "lower_bound": 0.027747437248123674
+        },
+        {
+          "case_id": "ABS-REMOTE-3",
+          "status": "optimal",
+          "has_valid_plan": true,
+          "absolute_gap": 0,
+          "objective": 0.0020405378633909788,
+          "lower_bound": 0.0020405378633909788
+        }
+      ],
+      "scope": "Selected under the frozen 20-second calibration protocol; not a guarantee of globally best parameters or exact solutions for all cases."
+    }
+  },
+  "manifest_sha256": "2d977280df5907e726098274117dce6a2fd9339020b471996adee1792f70e13f",
+  "formal_evaluation_performed": false,
+  "recommended_solver_limit_seconds": 20,
+  "cost_scale_rule": ".8*event_energy"
+}

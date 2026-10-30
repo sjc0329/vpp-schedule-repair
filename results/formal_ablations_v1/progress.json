@@ -1,0 +1,10 @@
+{
+  "completed": 540,
+  "planned": 540,
+  "new_solver_calls": 1080,
+  "planned_solver_calls": 1080,
+  "case_id": "TPL-G4-3-DAY_SURPLUS",
+  "budget": "alpha_0p3",
+  "variant": "without_final_cost",
+  "elapsed_seconds": 786.2736991000129
+}

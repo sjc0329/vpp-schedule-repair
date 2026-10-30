@@ -1,0 +1,122 @@
+{
+  "reverified_configurations": 24,
+  "verified_constructive_witnesses": 1,
+  "certificate_analytical_checks": 7,
+  "all_stages_optimal": true,
+  "maximum_raw_constraint_residual": 5.823697080131751e-11,
+  "new_inputs_frozen": true,
+  "old_pilot_and_cost_refinement_evidence_unchanged": true,
+  "original_36_case_data_unchanged": true,
+  "zero_modification_repair_configurations": 3,
+  "diagnostics": [
+    {
+      "case_id": "ABS-LOCAL-1",
+      "peak": {
+        "edge": "A",
+        "peak_kw": 20
+      },
+      "certificate_energy": 0.0,
+      "raw_remote_curtailed_energy": 0.0,
+      "source_C_export_room": [
+        32.0,
+        32.038539381705135
+      ]
+    },
+    {
+      "case_id": "ABS-LOCAL-2",
+      "peak": {
+        "edge": "A",
+        "peak_kw": 50
+      },
+      "certificate_energy": 0.0,
+      "raw_remote_curtailed_energy": 0.0,
+      "source_C_export_room": [
+        32.0,
+        32.038539381705135
+      ]
+    },
+    {
+      "case_id": "ABS-LOCAL-3",
+      "peak": {
+        "edge": "A",
+        "peak_kw": 80
+      },
+      "certificate_energy": 8.95717846477207,
+      "raw_remote_curtailed_energy": 0.0,
+      "source_C_export_room": [
+        32.0,
+        32.038539381705135
+      ]
+    },
+    {
+      "case_id": "ABS-REMOTE-1",
+      "peak": {
+        "edge": "C",
+        "peak_kw": 40
+      },
+      "certificate_energy": 0.0,
+      "raw_remote_curtailed_energy": 0.0,
+      "source_C_export_room": [
+        10.0,
+        10.085643070455859
+      ]
+    },
+    {
+      "case_id": "ABS-REMOTE-2",
+      "peak": {
+        "edge": "C",
+        "peak_kw": 60
+      },
+      "certificate_energy": 0.0,
+      "raw_remote_curtailed_energy": 0.0,
+      "source_C_export_room": [
+        0.0,
+        10.128464605683785
+      ]
+    },
+    {
+      "case_id": "ABS-REMOTE-3",
+      "peak": {
+        "edge": "C",
+        "peak_kw": 80
+      },
+      "certificate_energy": 0.0,
+      "raw_remote_curtailed_energy": 4.9571784647720705,
+      "source_C_export_room": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "evidence_sha256": {
+    "datasets\\absorption_v1\\ABS-LOCAL-1-event-state.json": "483dfa0f12e722aab02073dd5cca25a69d37d80f0a50b24fb75218b32e90abce",
+    "datasets\\absorption_v1\\ABS-LOCAL-1-input.json": "97837366f4d8260eb6ff26bbea2403e801a7b9835d91adad7d5c755f61a93d27",
+    "datasets\\absorption_v1\\ABS-LOCAL-1-published.json": "ede845593f1c6cc96fa9c294e8f920d90b1970bbe064081849db987440b1c754",
+    "datasets\\absorption_v1\\ABS-LOCAL-2-event-state.json": "96fd5c7416dd4d83392fff1080d4d114c21be854927758a98aa84176043a835c",
+    "datasets\\absorption_v1\\ABS-LOCAL-2-input.json": "754a16c53daac0019f4d40da4c3bff1cc31df26dffecd011886ee52149f63323",
+    "datasets\\absorption_v1\\ABS-LOCAL-2-published.json": "399c04d2c57b13d0ee9af379887c6ce33b1a9e4d0a2e3782b10aa986fa8a482f",
+    "datasets\\absorption_v1\\ABS-LOCAL-3-event-state.json": "4ff11ba521e58e03eeda99234f7014313910b66ea90c1c6782990666d5fa6176",
+    "datasets\\absorption_v1\\ABS-LOCAL-3-input.json": "8616f086219e9fd1b46d20dcf1b7df84297c2e8a680f17fc040c1dc785b289bc",
+    "datasets\\absorption_v1\\ABS-LOCAL-3-published.json": "6269b9a45a5b2c110e005f0ba2d4a72885eb659a1ce9af7181df1140313b6212",
+    "datasets\\absorption_v1\\ABS-REMOTE-1-event-state.json": "3b41bd6821d224da621f56d7e6e97161b8d49d73ee1c786f31a4f0d179e162bd",
+    "datasets\\absorption_v1\\ABS-REMOTE-1-input.json": "9d7be8a5f752445e4ca1f7c62cc36aa4a7b64281a6a1fcd0f8d0fb9617d3bae0",
+    "datasets\\absorption_v1\\ABS-REMOTE-1-published.json": "bbe08f9c1529e9db6f5d3f5c369a4b2436068a62cefa4d007a7bf1756c7e26b1",
+    "datasets\\absorption_v1\\ABS-REMOTE-2-event-state.json": "500ad5a7e9aa885abeafd6a634ef399484953e950c0b0702cf7a00d1ddd2be92",
+    "datasets\\absorption_v1\\ABS-REMOTE-2-input.json": "cd19096d1fbf40b198f4453b674a712b6e99fd819b36997739057fed72ff04a9",
+    "datasets\\absorption_v1\\ABS-REMOTE-2-published.json": "802e70d8a3b6d8937bad75cbddc6e652877c961db2e498ec0b0be2a53cc07529",
+    "datasets\\absorption_v1\\ABS-REMOTE-3-event-state.json": "3bb47e2209ceed8f5c3c9c7ca1f80fa19162d0bd52f601b7274861ada3160103",
+    "datasets\\absorption_v1\\ABS-REMOTE-3-input.json": "88962896181f64b6e439f3d72b099a0ca7ad6be45b551fd8b328924228b3fc9f",
+    "datasets\\absorption_v1\\ABS-REMOTE-3-published.json": "26a3eb02df7b51d50930b5b578af899db9c78225fd6c012c07e27a4bd37c401f",
+    "datasets\\absorption_v1\\manifest.json": "ba9cdf3a76429c34417edfefdb712f6f33c718e70e2c081b0e6bf8b5e304ef6f",
+    "results\\absorption_v1\\cases\\ABS-LOCAL-1.json": "f44ab0b99c82ae67f078760a6265af6b38f123bd444730a824e563f40ef71ce9",
+    "results\\absorption_v1\\cases\\ABS-LOCAL-2.json": "dc0d7b44a24f2d59b3b7f85f10cd8b19de02df1de8c1077dee3a329bd92d28d6",
+    "results\\absorption_v1\\cases\\ABS-LOCAL-3.json": "52cef72ce0455b1a81567c714b3dcab6b51c78c3d457dcb4836299f80152a752",
+    "results\\absorption_v1\\cases\\ABS-REMOTE-1.json": "c4074855285a2c19e24602897af685ad15153c945618a10f4d8245dbd074f1a8",
+    "results\\absorption_v1\\cases\\ABS-REMOTE-2.json": "5d6dea019a9bfc4b1ffb59b3435532b7ac4e759e69a65afa5fd51487793a6503",
+    "results\\absorption_v1\\cases\\ABS-REMOTE-3.json": "310ae4c2068d582082ed41c3e5523da7e6e0082c4f0ee9f34274ebfdb4207e6a",
+    "results\\absorption_v1\\summary.json": "7651181c80bb9c26d94cfa0171f029b2138ff88399cf8a9532f372cb4b981538",
+    "results\\absorption_v1\\configurations.csv": "f7683b5220eb53e41365135183df2d8290c45fcc7876a8e39913d837ae69a8d2",
+    "run_absorption_checks.py": "158908e154dbc0cf4a00489a943578b1ae60772ba2428eef51dc0df3f14aacb0",
+    "audit_absorption.py": "bf7cb544c0ea0c08f58ded8ed2a2c5b5736d153cb94afddfe74e8ae8ccc1b768"
+  }
+}

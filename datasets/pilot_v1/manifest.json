@@ -1,0 +1,25 @@
+{
+  "recipe": "pilot_v1; frozen before solving",
+  "configurations": 42,
+  "input_sha256": {
+    "ECON-1-input.json": "1aa22ea448f8368897ce0ad8eadd1ae18a9f982fbe414d34dde353e316f08141",
+    "ECON-2-input.json": "e15a18f968c55ac614c18feffabbfee16391abb7244859a62806074f2c77c613",
+    "ECON-3-input.json": "df35bd44832922b0a0be35ddb3c67ae4e9e315cd4ba7b4099c69aaf6f7b354ca",
+    "SCOPE-1-input.json": "5d75bf5fa80ef7b77175d2ff67c366b3980e92746edf6157242727da076e92bb",
+    "SCOPE-2-input.json": "e4d59ba58e7462c2da212f203a4cfb3e0dd246418ada3df8404f17abe3c64254",
+    "SCOPE-3-input.json": "589ebaf3ae38c5441b52219cd7db5a201c656cce17f72d587c2d86b62af940da",
+    "TIME-1-input.json": "11f6e923a898059968237ae0b1dd0f9e9198f34b4dca668f95d997664f2d6a20",
+    "TIME-2-input.json": "9a8a93a2afe61ede8067a6e5040aa83066698cd859e53727ab0c757dd7602a79",
+    "TIME-3-input.json": "bdaf84d40e06685c802149ac11d6af0a7a0007977a6964299970954b99a93ed8"
+  },
+  "source_sha256": {
+    "vpp_repair\\__init__.py": "59bb464929fd54549be59b469bff52c97590b070b8fa142a60d1ad516c717afd",
+    "vpp_repair\\data.py": "5342d2c7dee826842b3c4beaaaf27494965a9f20b9cb20be0e3ab4f333644f11",
+    "vpp_repair\\model.py": "531d413c5f36b33d32359bb5ce782aacbfc83051d2d99cf0207bda6b1f249e08",
+    "vpp_repair\\pilot_data.py": "6a2fdbf70a1090f5a91963f96cbbd1244208caa4511cd2098a1d7b890c46bc0c",
+    "vpp_repair\\repair.py": "2e5990f20376994c5d2481ef6b9b72abe3610972306c659aac028bc6482bf63a",
+    "vpp_repair\\verify.py": "868a9f920711e5fef28db616a48096291c2d9538d36b0d9e1dcd5cb5865e79a4",
+    "run_pilot.py": "9aeee0bce93b0ef14ed59ec008f3353077815f68b6b124c01acae802e841b0d4"
+  },
+  "note": "Nominal placeholder reference is not a published plan; solved plan saved separately"
+}

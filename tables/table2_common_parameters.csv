@@ -1,0 +1,21 @@
+﻿parameter,value,unit,note
+Time horizon,24,h,96 periods; event snapshot at period 48
+Time step,0.25,h,15 minutes
+Edge count,4,groups,"A, B, C, D"
+Event window,12:00-12:30,local time,New task on A; 20 kW cap
+Event energy,4;6;8,kWh,Stage 2 fixes 8 kWh
+Charge/discharge efficiency,0.95;0.95,-,Per-direction efficiencies
+Operating minimum SOC,20,%,During connection; future arrivals modeled explicitly
+Required departure/terminal SOC,40,%,Requirement at designated node
+Ordinary initial/arrival SOC,60,%,G3 EV arrival overrides to 45 kWh
+Grid import limit,60,kW,All formal templates
+Grid export limit,30 or 0,kW,0 for remote G2 templates
+Edge exchange limit,40 or 60,kW,60 for TPL-G2-2
+Grid buy prices,0.4;0.6;0.8;1.0,CNY/kWh,Time-dependent; G1 includes 0.6 plateau
+Grid sell price,0.2,CNY/kWh,Formal templates
+Formal alpha levels,0;0.1;0.3,-,epsilon = alpha * 0.8 * event energy
+Sensitivity alpha levels,0;0.05;0.1;0.15;0.2;0.25;0.3;0.35;0.4;0.5;0.6,-,Supplementary sensitivity
+Standby response fees,1.01;1.10;1.20,CNY/kWh,1.01 formal; higher fees in sensitivity only
+Tracking parameters,lambda=10;rho=0.75,-,Frozen after 13-case calibration
+Scalar parameters,0.45;0.45;0.10,-,"C,D,N weights; frozen calibration"
+Per-solve time limit,20,s,HiGHS own model; SCIP tracking/scalar implementation

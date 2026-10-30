@@ -1,0 +1,9 @@
+{
+  "configurations": 180,
+  "solver_calls": 720,
+  "planned_solver_calls": 720,
+  "optimal": 180,
+  "valid": 180,
+  "normalization_failures": 0,
+  "elapsed_seconds": 717.2286611000309
+}

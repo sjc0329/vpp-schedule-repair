@@ -1,0 +1,453 @@
+{
+  "case_frontiers": [
+    {
+      "case_id": "TPL-G1-1-E08",
+      "family": "G1",
+      "profile": "ORIGINAL",
+      "price": null,
+      "d_at_zero": 8.00000000000032,
+      "observed_grid_min_d": 7.924164618445797,
+      "first_observed_grid_best_alpha": 0.05,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G1-2-E08",
+      "family": "G1",
+      "profile": "ORIGINAL",
+      "price": null,
+      "d_at_zero": 8.000000000000005,
+      "observed_grid_min_d": 7.512500000000155,
+      "first_observed_grid_best_alpha": 0.15,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G1-3-E08",
+      "family": "G1",
+      "profile": "ORIGINAL",
+      "price": null,
+      "d_at_zero": 8.000000000000124,
+      "observed_grid_min_d": 7.756250000000026,
+      "first_observed_grid_best_alpha": 0.1,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G2-1-E08",
+      "family": "G2",
+      "profile": "ORIGINAL",
+      "price": null,
+      "d_at_zero": 2.8377300509419e-13,
+      "observed_grid_min_d": 2.8377300509419e-13,
+      "first_observed_grid_best_alpha": 0.0,
+      "first_zero_alpha": 0.0,
+      "first_zero_actual_extra_cost": -2.842170943040401e-14,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G2-2-E08",
+      "family": "G2",
+      "profile": "ORIGINAL",
+      "price": null,
+      "d_at_zero": 6.838973831690964e-14,
+      "observed_grid_min_d": 6.838973831690964e-14,
+      "first_observed_grid_best_alpha": 0.0,
+      "first_zero_alpha": 0.0,
+      "first_zero_actual_extra_cost": 0.0,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G2-3-E08",
+      "family": "G2",
+      "profile": "ORIGINAL",
+      "price": null,
+      "d_at_zero": 7.216449660063518e-14,
+      "observed_grid_min_d": 6.372680161348399e-14,
+      "first_observed_grid_best_alpha": 0.0,
+      "first_zero_alpha": 0.0,
+      "first_zero_actual_extra_cost": -2.842170943040401e-14,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G3-1-E08",
+      "family": "G3",
+      "profile": "ORIGINAL",
+      "price": null,
+      "d_at_zero": 8.000000000001293,
+      "observed_grid_min_d": 8.000000000000005,
+      "first_observed_grid_best_alpha": 0.0,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G3-2-E08",
+      "family": "G3",
+      "profile": "ORIGINAL",
+      "price": null,
+      "d_at_zero": 8.000000000002862,
+      "observed_grid_min_d": 8.000000000000043,
+      "first_observed_grid_best_alpha": 0.0,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G3-3-E08",
+      "family": "G3",
+      "profile": "ORIGINAL",
+      "price": null,
+      "d_at_zero": 8.000000000000016,
+      "observed_grid_min_d": 7.999999999999993,
+      "first_observed_grid_best_alpha": 0.0,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G4-1-E08",
+      "family": "G4",
+      "profile": "ORIGINAL",
+      "price": 1.01,
+      "d_at_zero": 8.000000000001048,
+      "observed_grid_min_d": 3.552713678800501e-15,
+      "first_observed_grid_best_alpha": 0.3,
+      "first_zero_alpha": 0.3,
+      "first_zero_actual_extra_cost": 1.6800000000000068,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G4-2-E08",
+      "family": "G4",
+      "profile": "ORIGINAL",
+      "price": 1.01,
+      "d_at_zero": 8.000000000001446,
+      "observed_grid_min_d": 8.881784197001252e-16,
+      "first_observed_grid_best_alpha": 0.3,
+      "first_zero_alpha": 0.3,
+      "first_zero_actual_extra_cost": 1.6800000000000068,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G4-3-E08",
+      "family": "G4",
+      "profile": "ORIGINAL",
+      "price": 1.01,
+      "d_at_zero": 8.000000000002137,
+      "observed_grid_min_d": 3.3306690738754696e-15,
+      "first_observed_grid_best_alpha": 0.3,
+      "first_zero_alpha": 0.3,
+      "first_zero_actual_extra_cost": 1.6800000000000068,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G3-1-DAY_SURPLUS",
+      "family": "G3",
+      "profile": "DAY_SURPLUS",
+      "price": null,
+      "d_at_zero": 8.255786402906718,
+      "observed_grid_min_d": 7.4508472286200345,
+      "first_observed_grid_best_alpha": 0.2,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G3-2-DAY_SURPLUS",
+      "family": "G3",
+      "profile": "DAY_SURPLUS",
+      "price": null,
+      "d_at_zero": 8.318315366411921,
+      "observed_grid_min_d": 7.913972228619988,
+      "first_observed_grid_best_alpha": 0.05,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G3-3-DAY_SURPLUS",
+      "family": "G3",
+      "profile": "DAY_SURPLUS",
+      "price": null,
+      "d_at_zero": 8.683047007657933,
+      "observed_grid_min_d": 7.913972228620011,
+      "first_observed_grid_best_alpha": 0.05,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G4-1-DAY_SURPLUS",
+      "family": "G4",
+      "profile": "DAY_SURPLUS",
+      "price": 1.01,
+      "d_at_zero": 8.000000000000751,
+      "observed_grid_min_d": 7.771561172376096e-15,
+      "first_observed_grid_best_alpha": 0.35,
+      "first_zero_alpha": 0.35,
+      "first_zero_actual_extra_cost": 2.2094016700310704,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G4-2-DAY_SURPLUS",
+      "family": "G4",
+      "profile": "DAY_SURPLUS",
+      "price": 1.01,
+      "d_at_zero": 8.000000000000174,
+      "observed_grid_min_d": 3.9968028886505635e-15,
+      "first_observed_grid_best_alpha": 0.35,
+      "first_zero_alpha": 0.35,
+      "first_zero_actual_extra_cost": 2.2094016700310704,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G4-3-DAY_SURPLUS",
+      "family": "G4",
+      "profile": "DAY_SURPLUS",
+      "price": 1.01,
+      "d_at_zero": 8.000000000000005,
+      "observed_grid_min_d": 1.2434497875801753e-14,
+      "first_observed_grid_best_alpha": 0.35,
+      "first_zero_alpha": 0.35,
+      "first_zero_actual_extra_cost": 2.2094016700310704,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "TPL-G2-1-CLOUD_EVENING",
+      "family": "G2",
+      "profile": "CLOUD_EVENING",
+      "price": null,
+      "d_at_zero": 7.624397970347793,
+      "observed_grid_min_d": 7.624397970347793,
+      "first_observed_grid_best_alpha": 0.0,
+      "first_zero_alpha": null,
+      "first_zero_actual_extra_cost": null,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-1-ORIGINAL-C110",
+      "family": "G4",
+      "profile": "ORIGINAL",
+      "price": 1.1,
+      "d_at_zero": 8.000000000002135,
+      "observed_grid_min_d": 3.552713678800501e-15,
+      "first_observed_grid_best_alpha": 0.4,
+      "first_zero_alpha": 0.4,
+      "first_zero_actual_extra_cost": 2.3999999999999773,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-1-ORIGINAL-C120",
+      "family": "G4",
+      "profile": "ORIGINAL",
+      "price": 1.2,
+      "d_at_zero": 8.000000000000266,
+      "observed_grid_min_d": 3.552713678800501e-15,
+      "first_observed_grid_best_alpha": 0.5,
+      "first_zero_alpha": 0.5,
+      "first_zero_actual_extra_cost": 3.199999999999818,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-1-DAY_SURPLUS-C110",
+      "family": "G4",
+      "profile": "DAY_SURPLUS",
+      "price": 1.1,
+      "d_at_zero": 8.000000000000533,
+      "observed_grid_min_d": 7.771561172376096e-15,
+      "first_observed_grid_best_alpha": 0.5,
+      "first_zero_alpha": 0.5,
+      "first_zero_actual_extra_cost": 2.929401670031041,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-1-DAY_SURPLUS-C120",
+      "family": "G4",
+      "profile": "DAY_SURPLUS",
+      "price": 1.2,
+      "d_at_zero": 8.000000000000277,
+      "observed_grid_min_d": 7.771561172376096e-15,
+      "first_observed_grid_best_alpha": 0.6,
+      "first_zero_alpha": 0.6,
+      "first_zero_actual_extra_cost": 3.729401670031052,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-2-ORIGINAL-C110",
+      "family": "G4",
+      "profile": "ORIGINAL",
+      "price": 1.1,
+      "d_at_zero": 8.000000000001236,
+      "observed_grid_min_d": 8.881784197001252e-16,
+      "first_observed_grid_best_alpha": 0.4,
+      "first_zero_alpha": 0.4,
+      "first_zero_actual_extra_cost": 2.3999999999999773,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-2-ORIGINAL-C120",
+      "family": "G4",
+      "profile": "ORIGINAL",
+      "price": 1.2,
+      "d_at_zero": 8.000000000001151,
+      "observed_grid_min_d": 8.881784197001252e-16,
+      "first_observed_grid_best_alpha": 0.5,
+      "first_zero_alpha": 0.5,
+      "first_zero_actual_extra_cost": 3.199999999999534,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-2-DAY_SURPLUS-C110",
+      "family": "G4",
+      "profile": "DAY_SURPLUS",
+      "price": 1.1,
+      "d_at_zero": 8.000000000000004,
+      "observed_grid_min_d": 2.220446049250313e-15,
+      "first_observed_grid_best_alpha": 0.5,
+      "first_zero_alpha": 0.5,
+      "first_zero_actual_extra_cost": 2.929401670031041,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-2-DAY_SURPLUS-C120",
+      "family": "G4",
+      "profile": "DAY_SURPLUS",
+      "price": 1.2,
+      "d_at_zero": 8.000000000000805,
+      "observed_grid_min_d": 2.220446049250313e-15,
+      "first_observed_grid_best_alpha": 0.6,
+      "first_zero_alpha": 0.6,
+      "first_zero_actual_extra_cost": 3.729401670031052,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-3-ORIGINAL-C110",
+      "family": "G4",
+      "profile": "ORIGINAL",
+      "price": 1.1,
+      "d_at_zero": 8.000000000000693,
+      "observed_grid_min_d": 3.3306690738754696e-15,
+      "first_observed_grid_best_alpha": 0.4,
+      "first_zero_alpha": 0.4,
+      "first_zero_actual_extra_cost": 2.3999999999999773,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-3-ORIGINAL-C120",
+      "family": "G4",
+      "profile": "ORIGINAL",
+      "price": 1.2,
+      "d_at_zero": 8.000000000004144,
+      "observed_grid_min_d": 3.3306690738754696e-15,
+      "first_observed_grid_best_alpha": 0.5,
+      "first_zero_alpha": 0.5,
+      "first_zero_actual_extra_cost": 3.199999999999818,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-3-DAY_SURPLUS-C110",
+      "family": "G4",
+      "profile": "DAY_SURPLUS",
+      "price": 1.1,
+      "d_at_zero": 8.000000000000005,
+      "observed_grid_min_d": 1.1546319456101628e-14,
+      "first_observed_grid_best_alpha": 0.5,
+      "first_zero_alpha": 0.5,
+      "first_zero_actual_extra_cost": 2.929401670031041,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    },
+    {
+      "case_id": "SENS-G4-3-DAY_SURPLUS-C120",
+      "family": "G4",
+      "profile": "DAY_SURPLUS",
+      "price": 1.2,
+      "d_at_zero": 8.000000000000005,
+      "observed_grid_min_d": 1.1546319456101628e-14,
+      "first_observed_grid_best_alpha": 0.6,
+      "first_zero_alpha": 0.6,
+      "first_zero_actual_extra_cost": 3.729401670031052,
+      "interpretation": "First observed grid minimum is not proof of saturation beyond alpha=.6. Zero D certifies the D lower bound, while N/C can still change with budget."
+    }
+  ],
+  "standby_price_summary": [
+    {
+      "profile": "ORIGINAL",
+      "price": 1.01,
+      "cases": 3,
+      "analytic_full_alpha": 0.26249999999999996,
+      "analytic_full_extra_cost": 1.6799999999999997,
+      "first_zero_alphas": [
+        0.3
+      ]
+    },
+    {
+      "profile": "ORIGINAL",
+      "price": 1.1,
+      "cases": 3,
+      "analytic_full_alpha": 0.37500000000000006,
+      "analytic_full_extra_cost": 2.4000000000000004,
+      "first_zero_alphas": [
+        0.4
+      ]
+    },
+    {
+      "profile": "ORIGINAL",
+      "price": 1.2,
+      "cases": 3,
+      "analytic_full_alpha": 0.4999999999999999,
+      "analytic_full_extra_cost": 3.1999999999999993,
+      "first_zero_alphas": [
+        0.5
+      ]
+    },
+    {
+      "profile": "DAY_SURPLUS",
+      "price": 1.01,
+      "cases": 3,
+      "analytic_full_alpha": 0.3452190109423575,
+      "analytic_full_extra_cost": 2.209401670031088,
+      "first_zero_alphas": [
+        0.35
+      ]
+    },
+    {
+      "profile": "DAY_SURPLUS",
+      "price": 1.1,
+      "cases": 3,
+      "analytic_full_alpha": 0.4577190109423576,
+      "analytic_full_extra_cost": 2.9294016700310888,
+      "first_zero_alphas": [
+        0.5
+      ]
+    },
+    {
+      "profile": "DAY_SURPLUS",
+      "price": 1.2,
+      "cases": 3,
+      "analytic_full_alpha": 0.5827190109423575,
+      "analytic_full_extra_cost": 3.7294016700310877,
+      "first_zero_alphas": [
+        0.6
+      ]
+    }
+  ],
+  "standby_formula_checks": 198,
+  "max_standby_d_error": 4.144240506320784e-12,
+  "flat_budget_original_cases": [
+    "TPL-G2-1-E08",
+    "TPL-G2-2-E08",
+    "TPL-G2-3-E08",
+    "TPL-G3-1-E08",
+    "TPL-G3-2-E08",
+    "TPL-G3-3-E08",
+    "TPL-G2-1-CLOUD_EVENING"
+  ],
+  "interpretation": "Alpha is an economic tolerance, not a universal accuracy-maximizing hyperparameter. Report actual C,D,N and regime conditions. Baseline parameters and old performance tables remain frozen.",
+  "new_solver_calls": 876,
+  "configurations": 341,
+  "new_dataset_cases": 12
+}

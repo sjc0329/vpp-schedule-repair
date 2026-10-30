@@ -1,0 +1,9 @@
+batch,physical_cases,configurations,repair_configurations,new_solver_calls,note
+Main stage 1,36,144,108,360,12 templates x 3 event energies; 36 economic references
+Main stage 2,24,96,72,264,12 templates x 2 known profiles; 24 nominal plans included
+Tracking comparison,60,180,180,180,166 optimal; 14 feasible time limits
+Scalar comparison,60,180,180,720,540 anchors + 180 scalar solves; all optimal
+Adaptive-participation comparison,60,180,180,360,One setting; two solves per configuration
+Asymmetric-settlement comparison,60,360,360,360,Two coefficient settings on the same 180 configurations
+Ablation,60,540,540,1080,3 variants; full method reused
+Parameter sensitivity,31,341,341,876,19 selected old + 12 price variants; 57 reused configurations

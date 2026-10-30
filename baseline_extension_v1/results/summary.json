@@ -1,0 +1,66 @@
+{
+  "cases": 13,
+  "configurations": 156,
+  "solver_calls": 234,
+  "references_reused": 13,
+  "all_output_plans_independently_valid": true,
+  "first_pass_optimal": 156,
+  "backup_acceptances": 55,
+  "backup_proven_infeasible": 23,
+  "rankings": {
+    "segan": [
+      {
+        "parameter": 100.0,
+        "configurations": 26,
+        "first_pass_optimal": 26,
+        "d_over_event": 0.9543740908334156,
+        "n_over_non_event": 0.55,
+        "extra_over_scale": 0.09177967467575562
+      },
+      {
+        "parameter": 10.0,
+        "configurations": 26,
+        "first_pass_optimal": 26,
+        "d_over_event": 0.9543740908334165,
+        "n_over_non_event": 0.5111111111111111,
+        "extra_over_scale": 0.09177967467575665
+      },
+      {
+        "parameter": 1.0,
+        "configurations": 26,
+        "first_pass_optimal": 26,
+        "d_over_event": 0.9816042890760759,
+        "n_over_non_event": 0.5055555555555555,
+        "extra_over_scale": 0.030442752845062742
+      }
+    ],
+    "settlement": [
+      {
+        "parameter": 0.5,
+        "configurations": 26,
+        "first_pass_optimal": 26,
+        "d_over_event": 0.9936348505451603,
+        "n_over_non_event": 0.7333333333333332,
+        "extra_over_scale": 2.442490654175344e-15
+      },
+      {
+        "parameter": 1.0,
+        "configurations": 26,
+        "first_pass_optimal": 26,
+        "d_over_event": 0.9991512890422218,
+        "n_over_non_event": 0.7333333333333333,
+        "extra_over_scale": 0.0021358518283502255
+      },
+      {
+        "parameter": 2.0,
+        "configurations": 26,
+        "first_pass_optimal": 26,
+        "d_over_event": 1.0037430018471027,
+        "n_over_non_event": 0.7,
+        "extra_over_scale": 0.0050615970386405085
+      }
+    ]
+  },
+  "formal_experiments_started": false,
+  "original_evidence_unchanged": true
+}

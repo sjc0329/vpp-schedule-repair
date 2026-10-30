@@ -1,0 +1,12 @@
+{
+  "stage": "Own-method main experiment: two changed known daily curves",
+  "planned_cases": 24,
+  "planned_configurations": 96,
+  "completed_configurations": 96,
+  "verified_plans": 96,
+  "actual_solver_calls": 264,
+  "errors": [],
+  "all_completed": true,
+  "elapsed_seconds": 91.97576319996733,
+  "note": "Two predeclared deterministic profiles; no statistical independence claim"
+}

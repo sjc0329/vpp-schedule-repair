@@ -1,0 +1,392 @@
+{
+  "stage": "Own-method main experiment, first event-strength batch",
+  "templates": 12,
+  "case_count": 36,
+  "configurations": 144,
+  "energy_levels": [
+    4.0,
+    6.0,
+    8.0
+  ],
+  "alpha_levels": [
+    0.0,
+    0.1,
+    0.3
+  ],
+  "reference_price": 0.8,
+  "budget_rule": "epsilon=alpha*0.8*event_energy",
+  "delta_d": 0,
+  "all_inputs_frozen_before_solving": true,
+  "nominal_plans_recomputed": false,
+  "planned_solver_calls": 360,
+  "variants": [
+    {
+      "case_id": "TPL-G1-1-E04",
+      "template": "TPL-G1-1",
+      "energy": 4.0,
+      "source_publication_sha256": "00e8e703bf91ab967bb6b81677288ce6780afe4fd2642637865c9ad19bff23c1"
+    },
+    {
+      "case_id": "TPL-G1-1-E06",
+      "template": "TPL-G1-1",
+      "energy": 6.0,
+      "source_publication_sha256": "00e8e703bf91ab967bb6b81677288ce6780afe4fd2642637865c9ad19bff23c1"
+    },
+    {
+      "case_id": "TPL-G1-1-E08",
+      "template": "TPL-G1-1",
+      "energy": 8.0,
+      "source_publication_sha256": "00e8e703bf91ab967bb6b81677288ce6780afe4fd2642637865c9ad19bff23c1"
+    },
+    {
+      "case_id": "TPL-G1-2-E04",
+      "template": "TPL-G1-2",
+      "energy": 4.0,
+      "source_publication_sha256": "c34a480a69531fff80366c249c5ef37045076e8e6e8d2802a8eb41881db555b8"
+    },
+    {
+      "case_id": "TPL-G1-2-E06",
+      "template": "TPL-G1-2",
+      "energy": 6.0,
+      "source_publication_sha256": "c34a480a69531fff80366c249c5ef37045076e8e6e8d2802a8eb41881db555b8"
+    },
+    {
+      "case_id": "TPL-G1-2-E08",
+      "template": "TPL-G1-2",
+      "energy": 8.0,
+      "source_publication_sha256": "c34a480a69531fff80366c249c5ef37045076e8e6e8d2802a8eb41881db555b8"
+    },
+    {
+      "case_id": "TPL-G1-3-E04",
+      "template": "TPL-G1-3",
+      "energy": 4.0,
+      "source_publication_sha256": "e4f651d9aa9f951f287c91f94d540ca90b5813924cedddea48c4f917cbbbc5dd"
+    },
+    {
+      "case_id": "TPL-G1-3-E06",
+      "template": "TPL-G1-3",
+      "energy": 6.0,
+      "source_publication_sha256": "e4f651d9aa9f951f287c91f94d540ca90b5813924cedddea48c4f917cbbbc5dd"
+    },
+    {
+      "case_id": "TPL-G1-3-E08",
+      "template": "TPL-G1-3",
+      "energy": 8.0,
+      "source_publication_sha256": "e4f651d9aa9f951f287c91f94d540ca90b5813924cedddea48c4f917cbbbc5dd"
+    },
+    {
+      "case_id": "TPL-G2-1-E04",
+      "template": "TPL-G2-1",
+      "energy": 4.0,
+      "source_publication_sha256": "0c197fba8628a5da003761f02d37565d0f36a17d25071caba617fac1a1cf5b1b"
+    },
+    {
+      "case_id": "TPL-G2-1-E06",
+      "template": "TPL-G2-1",
+      "energy": 6.0,
+      "source_publication_sha256": "0c197fba8628a5da003761f02d37565d0f36a17d25071caba617fac1a1cf5b1b"
+    },
+    {
+      "case_id": "TPL-G2-1-E08",
+      "template": "TPL-G2-1",
+      "energy": 8.0,
+      "source_publication_sha256": "0c197fba8628a5da003761f02d37565d0f36a17d25071caba617fac1a1cf5b1b"
+    },
+    {
+      "case_id": "TPL-G2-2-E04",
+      "template": "TPL-G2-2",
+      "energy": 4.0,
+      "source_publication_sha256": "28aab9c63f77bc5da63156e63a71b127572f2149e1d74425c1a2014e9d25b2b3"
+    },
+    {
+      "case_id": "TPL-G2-2-E06",
+      "template": "TPL-G2-2",
+      "energy": 6.0,
+      "source_publication_sha256": "28aab9c63f77bc5da63156e63a71b127572f2149e1d74425c1a2014e9d25b2b3"
+    },
+    {
+      "case_id": "TPL-G2-2-E08",
+      "template": "TPL-G2-2",
+      "energy": 8.0,
+      "source_publication_sha256": "28aab9c63f77bc5da63156e63a71b127572f2149e1d74425c1a2014e9d25b2b3"
+    },
+    {
+      "case_id": "TPL-G2-3-E04",
+      "template": "TPL-G2-3",
+      "energy": 4.0,
+      "source_publication_sha256": "175fbde473d380ebed3e7ffe3623001d1b08b092f7d6c461b0f2c4c6246c27b8"
+    },
+    {
+      "case_id": "TPL-G2-3-E06",
+      "template": "TPL-G2-3",
+      "energy": 6.0,
+      "source_publication_sha256": "175fbde473d380ebed3e7ffe3623001d1b08b092f7d6c461b0f2c4c6246c27b8"
+    },
+    {
+      "case_id": "TPL-G2-3-E08",
+      "template": "TPL-G2-3",
+      "energy": 8.0,
+      "source_publication_sha256": "175fbde473d380ebed3e7ffe3623001d1b08b092f7d6c461b0f2c4c6246c27b8"
+    },
+    {
+      "case_id": "TPL-G3-1-E04",
+      "template": "TPL-G3-1",
+      "energy": 4.0,
+      "source_publication_sha256": "0fcd9127df68291a21405e5e2c8cf52c099ca53b6b18129e88de6f11e15f4a39"
+    },
+    {
+      "case_id": "TPL-G3-1-E06",
+      "template": "TPL-G3-1",
+      "energy": 6.0,
+      "source_publication_sha256": "0fcd9127df68291a21405e5e2c8cf52c099ca53b6b18129e88de6f11e15f4a39"
+    },
+    {
+      "case_id": "TPL-G3-1-E08",
+      "template": "TPL-G3-1",
+      "energy": 8.0,
+      "source_publication_sha256": "0fcd9127df68291a21405e5e2c8cf52c099ca53b6b18129e88de6f11e15f4a39"
+    },
+    {
+      "case_id": "TPL-G3-2-E04",
+      "template": "TPL-G3-2",
+      "energy": 4.0,
+      "source_publication_sha256": "fcef63d23e35bf4d3048030be6997159c9f08fc3ace73e4d4dedf3b20ae7759d"
+    },
+    {
+      "case_id": "TPL-G3-2-E06",
+      "template": "TPL-G3-2",
+      "energy": 6.0,
+      "source_publication_sha256": "fcef63d23e35bf4d3048030be6997159c9f08fc3ace73e4d4dedf3b20ae7759d"
+    },
+    {
+      "case_id": "TPL-G3-2-E08",
+      "template": "TPL-G3-2",
+      "energy": 8.0,
+      "source_publication_sha256": "fcef63d23e35bf4d3048030be6997159c9f08fc3ace73e4d4dedf3b20ae7759d"
+    },
+    {
+      "case_id": "TPL-G3-3-E04",
+      "template": "TPL-G3-3",
+      "energy": 4.0,
+      "source_publication_sha256": "04f49d18de2d576eb7d35d21d3183ff303533b93a82aa0acde064150e05710d0"
+    },
+    {
+      "case_id": "TPL-G3-3-E06",
+      "template": "TPL-G3-3",
+      "energy": 6.0,
+      "source_publication_sha256": "04f49d18de2d576eb7d35d21d3183ff303533b93a82aa0acde064150e05710d0"
+    },
+    {
+      "case_id": "TPL-G3-3-E08",
+      "template": "TPL-G3-3",
+      "energy": 8.0,
+      "source_publication_sha256": "04f49d18de2d576eb7d35d21d3183ff303533b93a82aa0acde064150e05710d0"
+    },
+    {
+      "case_id": "TPL-G4-1-E04",
+      "template": "TPL-G4-1",
+      "energy": 4.0,
+      "source_publication_sha256": "d8fe95f6fb335d37707d077b0d85c9e5a1adcb2bba9978ac345be9bb92a1d71b"
+    },
+    {
+      "case_id": "TPL-G4-1-E06",
+      "template": "TPL-G4-1",
+      "energy": 6.0,
+      "source_publication_sha256": "d8fe95f6fb335d37707d077b0d85c9e5a1adcb2bba9978ac345be9bb92a1d71b"
+    },
+    {
+      "case_id": "TPL-G4-1-E08",
+      "template": "TPL-G4-1",
+      "energy": 8.0,
+      "source_publication_sha256": "d8fe95f6fb335d37707d077b0d85c9e5a1adcb2bba9978ac345be9bb92a1d71b"
+    },
+    {
+      "case_id": "TPL-G4-2-E04",
+      "template": "TPL-G4-2",
+      "energy": 4.0,
+      "source_publication_sha256": "5b054c9208d0452a910255c6792795947e363f889d3c1899a0db1e0531f9bf84"
+    },
+    {
+      "case_id": "TPL-G4-2-E06",
+      "template": "TPL-G4-2",
+      "energy": 6.0,
+      "source_publication_sha256": "5b054c9208d0452a910255c6792795947e363f889d3c1899a0db1e0531f9bf84"
+    },
+    {
+      "case_id": "TPL-G4-2-E08",
+      "template": "TPL-G4-2",
+      "energy": 8.0,
+      "source_publication_sha256": "5b054c9208d0452a910255c6792795947e363f889d3c1899a0db1e0531f9bf84"
+    },
+    {
+      "case_id": "TPL-G4-3-E04",
+      "template": "TPL-G4-3",
+      "energy": 4.0,
+      "source_publication_sha256": "0bc1f54a63c2bdac54d8acab1fc92027d30d18f8ec5f1cb95a214d8031757cd6"
+    },
+    {
+      "case_id": "TPL-G4-3-E06",
+      "template": "TPL-G4-3",
+      "energy": 6.0,
+      "source_publication_sha256": "0bc1f54a63c2bdac54d8acab1fc92027d30d18f8ec5f1cb95a214d8031757cd6"
+    },
+    {
+      "case_id": "TPL-G4-3-E08",
+      "template": "TPL-G4-3",
+      "energy": 8.0,
+      "source_publication_sha256": "0bc1f54a63c2bdac54d8acab1fc92027d30d18f8ec5f1cb95a214d8031757cd6"
+    }
+  ],
+  "input_sha256": {
+    "shared_publications\\TPL-G1-1.json": "00e8e703bf91ab967bb6b81677288ce6780afe4fd2642637865c9ad19bff23c1",
+    "shared_publications\\TPL-G1-2.json": "c34a480a69531fff80366c249c5ef37045076e8e6e8d2802a8eb41881db555b8",
+    "shared_publications\\TPL-G1-3.json": "e4f651d9aa9f951f287c91f94d540ca90b5813924cedddea48c4f917cbbbc5dd",
+    "shared_publications\\TPL-G2-1.json": "0c197fba8628a5da003761f02d37565d0f36a17d25071caba617fac1a1cf5b1b",
+    "shared_publications\\TPL-G2-2.json": "28aab9c63f77bc5da63156e63a71b127572f2149e1d74425c1a2014e9d25b2b3",
+    "shared_publications\\TPL-G2-3.json": "175fbde473d380ebed3e7ffe3623001d1b08b092f7d6c461b0f2c4c6246c27b8",
+    "shared_publications\\TPL-G3-1.json": "0fcd9127df68291a21405e5e2c8cf52c099ca53b6b18129e88de6f11e15f4a39",
+    "shared_publications\\TPL-G3-2.json": "fcef63d23e35bf4d3048030be6997159c9f08fc3ace73e4d4dedf3b20ae7759d",
+    "shared_publications\\TPL-G3-3.json": "04f49d18de2d576eb7d35d21d3183ff303533b93a82aa0acde064150e05710d0",
+    "shared_publications\\TPL-G4-1.json": "d8fe95f6fb335d37707d077b0d85c9e5a1adcb2bba9978ac345be9bb92a1d71b",
+    "shared_publications\\TPL-G4-2.json": "5b054c9208d0452a910255c6792795947e363f889d3c1899a0db1e0531f9bf84",
+    "shared_publications\\TPL-G4-3.json": "0bc1f54a63c2bdac54d8acab1fc92027d30d18f8ec5f1cb95a214d8031757cd6",
+    "TPL-G1-1-E04-event-state.json": "587e3bcecfc19d409b7410aa0f1a9fe3765be20a77932cde5fad588a584d1e7e",
+    "TPL-G1-1-E04-pre-event.json": "1f828e8c5adf5b0def92e52713986675ae103924c0ac9bda81aa4b9718879405",
+    "TPL-G1-1-E06-event-state.json": "a21fe6cdb280943b651ea6830fb1cbbdad501aaef6a86892ded90cf14fc87109",
+    "TPL-G1-1-E06-pre-event.json": "98f19b6487ccb395a89d6fa5a60337a2eb15f72b2f436d4201a5ca5224bca6fb",
+    "TPL-G1-1-E08-event-state.json": "aa3b20e596b5c7f4a6f4e61df0f17417a86700c5ff729431e07f827dfdc6d987",
+    "TPL-G1-1-E08-pre-event.json": "23130325db96fcaabd2d43ab78650959e3ac203f21c91991bcbe07a28969986f",
+    "TPL-G1-2-E04-event-state.json": "882df08b4377cb7fd4c3195454166e5db766b5da85d8c7c0ad5fa76c8aa5c4a7",
+    "TPL-G1-2-E04-pre-event.json": "ecbe42898fe49b7c2f28eb75706e64ccdf0aa8977f26d4f3899c392edbf0ec15",
+    "TPL-G1-2-E06-event-state.json": "b3d52ee118b171329f6abbaf16134c964e13a6b49471b9379dabe710728059bd",
+    "TPL-G1-2-E06-pre-event.json": "22f1e9ff1027d95adb09a378b8e8c2bde5a6fbffe815b8e8012ced4572e195a4",
+    "TPL-G1-2-E08-event-state.json": "852dd09b4cd839128721eb110d04b79d08dbadda17883e079a33e20f294f9118",
+    "TPL-G1-2-E08-pre-event.json": "79da5212c43dbc6c3c189c3309913e6f1f41f10fc48524c544684307bede7ac0",
+    "TPL-G1-3-E04-event-state.json": "ada3e8332987cc4e3fd9fa4ec45d0632faef36ba743bafb6b671df15a966dea3",
+    "TPL-G1-3-E04-pre-event.json": "349ba62c70becb9101d56ee060d87d365d13bc5728c3ad50325500bf48307ec8",
+    "TPL-G1-3-E06-event-state.json": "058d806490a650df348e54c4016a1c8f23334dcee4fb75c644db5640c48fe220",
+    "TPL-G1-3-E06-pre-event.json": "0f98fab5ceb041b14fae87591a3429d2c73708d1899793297e4682045ed7c758",
+    "TPL-G1-3-E08-event-state.json": "2503c48ed26d792e5f13e989a177743e2a3294298102b91fda1155af43031276",
+    "TPL-G1-3-E08-pre-event.json": "4496d85062345f82cc5ff556345f2000d797422563a899cf05ee754fd30c6fab",
+    "TPL-G2-1-E04-event-state.json": "80ffc1509131d0bb0c650d1b223c36b65a72e1dd862fc8c2866d22c50d76c2e3",
+    "TPL-G2-1-E04-pre-event.json": "4107d2ec7741b9baf55cded163a9367dbb12e6ac91ba04a1e2ac11cb4e548405",
+    "TPL-G2-1-E06-event-state.json": "fb964544a2ff9655c03486b7a4d5f70029d61df842058b197d04d024dd71774a",
+    "TPL-G2-1-E06-pre-event.json": "315232293f56226ed67098726eb16baa8ac7c22bfa7f03c0ac41faf7423094aa",
+    "TPL-G2-1-E08-event-state.json": "60f9abbbbea2b6509418d4c11324096b9325c1d51b9ace7a06966a00cae52f0f",
+    "TPL-G2-1-E08-pre-event.json": "b8cc469fd5ec1f81efb35c2b32d076bb25003306bfb59b630dfa58ce4783e0fd",
+    "TPL-G2-2-E04-event-state.json": "a428f9f302a3e2e96bd394e364ffd642e9a14dbfdda173641016c00b4fa9d964",
+    "TPL-G2-2-E04-pre-event.json": "abf15ff327e0eea503450262e5f1c9e932c2e5c974a63b6b4fd2d782a38df10c",
+    "TPL-G2-2-E06-event-state.json": "28976b4d0b87c87c14882a02ff3c34b9bda0f1b7b9d83e3281f3cf1285ea2465",
+    "TPL-G2-2-E06-pre-event.json": "b09d84322d45f96502cb15d6cc1715a8f7c8425f9deb1c681ef491edc080cb11",
+    "TPL-G2-2-E08-event-state.json": "742bd6de4265c39b978b037ee3e38d8205203f3b43a886bd56bf4c614d17e72b",
+    "TPL-G2-2-E08-pre-event.json": "be3d8fcacbf55371d54f6084c23cb58a6f9b3e58965b01d549591001608e339c",
+    "TPL-G2-3-E04-event-state.json": "bae6da0c3d793f1f2f5ad1cf19d3115e4978d60b6370e8563924207eb25bf708",
+    "TPL-G2-3-E04-pre-event.json": "5a00324cd211f3975cb05352d42a25730bbb6d8dfb7e2e916c5c34ff84c6db8a",
+    "TPL-G2-3-E06-event-state.json": "1fa211d3c9d246b290ec5a474f989f31601a1e91027ae502c2425aa3c448ea25",
+    "TPL-G2-3-E06-pre-event.json": "877ca0ae96cd7a1e8d2459fe8a8961b08c26d05dcd4a510d560fc1871cb8fd3d",
+    "TPL-G2-3-E08-event-state.json": "b6a2d656402a885f067412938c6c3c4b6366741994323066f8fe5e5a35947201",
+    "TPL-G2-3-E08-pre-event.json": "f0fb0c2a44797211bb878b38e93a3c5318d0dfd24381da7fc1e639dc3613be8e",
+    "TPL-G3-1-E04-event-state.json": "fb3f5bbdfeb1b264bf0c4c17fe057f82bbeb48ec69238b65db48077a7db02e76",
+    "TPL-G3-1-E04-pre-event.json": "c86218eb4a666964cf281c4d4817a0b8fc21605621f9b7b35ae18f0df8912df7",
+    "TPL-G3-1-E06-event-state.json": "790b3a19624cf473ea55c407e92d5a13a5aaf4e7a672e759b5d8824364f132b6",
+    "TPL-G3-1-E06-pre-event.json": "6437ac2d291a239dc511fbdb9c3636e1ca4dd5ff588aa6630487ed0b4933fd8e",
+    "TPL-G3-1-E08-event-state.json": "69c39734b4c65ca2b12b21aa8cdb7a75dd60523688432015494bd2dff75a3520",
+    "TPL-G3-1-E08-pre-event.json": "842884bb10e51bbdf9d6b43202cf06b43c8f3f83f06659da50401453644309c1",
+    "TPL-G3-2-E04-event-state.json": "f8b671b170a0f62fbf882bac03d8e441328bd61544f06552efa296f141d67570",
+    "TPL-G3-2-E04-pre-event.json": "9ad69efff4e15ed2a0aaf5e0fbe3ffd15fb6c32bb7f4fe042f628be32fbf8882",
+    "TPL-G3-2-E06-event-state.json": "2f5b173b035c80e5fc520257c98d4c4d6a79b69b9aedc80dccbf072c2468ff4c",
+    "TPL-G3-2-E06-pre-event.json": "21745dd24c882ffdf05ea64c26c2e52db6cb48c5f8b7c622eca3119bc2b1dff8",
+    "TPL-G3-2-E08-event-state.json": "8e9491b45cbeb372a4506b79a559bd9b65ea6df3e4ba46ee4e1367bf8fbdf131",
+    "TPL-G3-2-E08-pre-event.json": "a8c1ad60cba9f29fca80c50440a8f829a6d18e6b8e69c83355eaa0f2dfbf1946",
+    "TPL-G3-3-E04-event-state.json": "9601f982f7f0d8ddbdb9217882a860231453943f0e3c2efc4cac596f7c93e691",
+    "TPL-G3-3-E04-pre-event.json": "2c44a710c675108ee2da7a76d418f18e6a566ea6f02de3807c9b3cb9e5dbdfeb",
+    "TPL-G3-3-E06-event-state.json": "2b4cb39cc8f8effb90aeea5c416e8ab5b0ffea2ef59e6315d0a03e18d3cc162c",
+    "TPL-G3-3-E06-pre-event.json": "23e091d4c46a5db7e82cde1ec03d382b7bbfd02c2d19cc2dcddf38cec2c5bddf",
+    "TPL-G3-3-E08-event-state.json": "645a030217c1a316521b678fdc47811b04351712fc957f47152571e215b19352",
+    "TPL-G3-3-E08-pre-event.json": "4981ed400844b2fe9a69b9ae2e33cb442b2b413f724257d0911c141ee82cb9bc",
+    "TPL-G4-1-E04-event-state.json": "0a2c4f1c914c788aaae45c17af563bc255398aa91fb5493e8b01b7b2b36a7a74",
+    "TPL-G4-1-E04-pre-event.json": "a0a2435a7065951ec801e0026e0a0812cc40c9754d70013afaf61483b4383e6b",
+    "TPL-G4-1-E06-event-state.json": "c9fa3381b798e5d983be3292d62aa6aa8be814f78aff5bd2a4cf0cf809d21009",
+    "TPL-G4-1-E06-pre-event.json": "f3e7ecf034242578776df1d67adb3610701e83fb80635ee782e861e275a593b8",
+    "TPL-G4-1-E08-event-state.json": "123c6e1406113644ec64ec0540f747216482452b39c10cd05acad45c06a66a5f",
+    "TPL-G4-1-E08-pre-event.json": "1dba51c99b8c4f7045a89bf7ad75f84c1972bf7964ac74befb4389d3736982c3",
+    "TPL-G4-2-E04-event-state.json": "2c8292b296981172f3e8b58bfa495d8ef086558a05411236ce39813884ea3583",
+    "TPL-G4-2-E04-pre-event.json": "bfe0a44e5347e82b11d00a231ce356b7e2083900d969ce956fdbd1b8783d2778",
+    "TPL-G4-2-E06-event-state.json": "5cbd8d3686b2e4fec835ce681701264e8f8914994897afb1a6e5747fbd16be0d",
+    "TPL-G4-2-E06-pre-event.json": "767f16226aff0a891ea52592542824dee00914da9a2452f5008adeccf0845eca",
+    "TPL-G4-2-E08-event-state.json": "d38ce0cc01340d6f2d3352381426fc9c89074f0c3397b310bac5fd12ca332fe1",
+    "TPL-G4-2-E08-pre-event.json": "bdfb599bde18385fd2a09a2712f391dbdb5a2b2c1f6c3c4dd90f66a7e1b94303",
+    "TPL-G4-3-E04-event-state.json": "580b1d0bb0d82df478055bfdfb5648b8a01a1642423caf1d2c8f07a94beba454",
+    "TPL-G4-3-E04-pre-event.json": "4858712c1cc432ddd2d933ca4b4ae9e24f12bf31cac6bf08a0b4498b8dfd3f7c",
+    "TPL-G4-3-E06-event-state.json": "77ff02782ffbda6ebb760240b57318cd70ec2e5ce3232fc14c511203e1a39725",
+    "TPL-G4-3-E06-pre-event.json": "5f132024ae97ca789a5b8d81ed1a5525389a3d96561692df3c7538c6b7bc5896",
+    "TPL-G4-3-E08-event-state.json": "e86ba62e5c8cebcef685211f7ee44fc67e068a09e7b1887430b5aaf7f4665b74",
+    "TPL-G4-3-E08-pre-event.json": "5c542114cc1971b7e69665ccd3ed543ea1e81f0d43010768fe7e9dd360439155"
+  },
+  "source_sha256": {
+    "vpp_repair\\__init__.py": "59bb464929fd54549be59b469bff52c97590b070b8fa142a60d1ad516c717afd",
+    "vpp_repair\\absorption.py": "3758dc429d334c0a5f2b419048b02fbcd7580bf1b21ecdaa34e3aa5d2bcc1408",
+    "vpp_repair\\absorption_data.py": "f97195feb3945c2d471f3daf9fc717cba65692f7c0c3445dab74a730b33afefb",
+    "vpp_repair\\data.py": "5342d2c7dee826842b3c4beaaaf27494965a9f20b9cb20be0e3ab4f333644f11",
+    "vpp_repair\\formal_templates.py": "6558571c66603fddda8bbdb5c652e36980e93bcc9e4c8c0e249faa2683974e6b",
+    "vpp_repair\\model.py": "2f90955f5a9b2c27313619e7a466570f003609dd600d8a2b79df1c171b763fa3",
+    "vpp_repair\\pilot_data.py": "6a2fdbf70a1090f5a91963f96cbbd1244208caa4511cd2098a1d7b890c46bc0c",
+    "vpp_repair\\repair.py": "760c1baf407576ecf4fd05d6c912ddcbe32f515674b8f3c133e11c5c9f905b2b",
+    "vpp_repair\\verify.py": "868a9f920711e5fef28db616a48096291c2d9538d36b0d9e1dcd5cb5865e79a4",
+    "run_main_stage1.py": "5ffd81cbc2cdb7191f27f03ea3e8c6e6eca8ea9d9e2b144f6652050125733817",
+    "run_pilot.py": "2a26e6780bd1fa52e16143c3a5a4415743920a3ac7a529b25c02b4f8c07aa7cb"
+  },
+  "prior_template_evidence_sha256": {
+    "datasets\\formal_templates_v1\\manifest.json": "2832eebf066bf460c0e739bd9a55748960fe4787f2d06a56d53f4e94cfa9a267",
+    "datasets\\formal_templates_v1\\TPL-G1-1-event-state.json": "d150546e384a67b3a7be9a5f3a9f9499f9c93ec61b18c7439697833cdaa319d4",
+    "datasets\\formal_templates_v1\\TPL-G1-1-input.json": "4d7f53f17dbc72c2945cb3d7c9c0e953a57d2ed81d99d30ab0f0d51720cdad63",
+    "datasets\\formal_templates_v1\\TPL-G1-1-published.json": "00e8e703bf91ab967bb6b81677288ce6780afe4fd2642637865c9ad19bff23c1",
+    "datasets\\formal_templates_v1\\TPL-G1-2-event-state.json": "d9510815455c5c0b82e056222dfa1e03370b99c70587b7ff323997d37092b2e8",
+    "datasets\\formal_templates_v1\\TPL-G1-2-input.json": "ffea4bd62f7770c85dfc814232ec3317f6074f0197cec26ab3a10ab280b843c1",
+    "datasets\\formal_templates_v1\\TPL-G1-2-published.json": "c34a480a69531fff80366c249c5ef37045076e8e6e8d2802a8eb41881db555b8",
+    "datasets\\formal_templates_v1\\TPL-G1-3-event-state.json": "8ef25b8f2fc6e2439501e42f96e4ab81f8d6acba4254e097cb83f4249f3905e4",
+    "datasets\\formal_templates_v1\\TPL-G1-3-input.json": "ef9c9472ffa3f1cbc7f0ae43ba1929b6f356bc634c441a9a8a0cbcf3b55e5e91",
+    "datasets\\formal_templates_v1\\TPL-G1-3-published.json": "e4f651d9aa9f951f287c91f94d540ca90b5813924cedddea48c4f917cbbbc5dd",
+    "datasets\\formal_templates_v1\\TPL-G2-1-event-state.json": "17eaf9e47f99cf21607faa34d9bd3d327c39cb4f2529a64ff162402cd620b3be",
+    "datasets\\formal_templates_v1\\TPL-G2-1-input.json": "aed892f2efbc1548d9e7828d672b90f8589030334e7d997a2ae92420e748d1e1",
+    "datasets\\formal_templates_v1\\TPL-G2-1-published.json": "0c197fba8628a5da003761f02d37565d0f36a17d25071caba617fac1a1cf5b1b",
+    "datasets\\formal_templates_v1\\TPL-G2-2-event-state.json": "3547990a660b300245ac745946fdb107f3af86bad8402d4fdb1734cec60a8214",
+    "datasets\\formal_templates_v1\\TPL-G2-2-input.json": "e1d69e6f31b36a142ef9debae18898c024ef97c9241b793ff901646ed58f08a2",
+    "datasets\\formal_templates_v1\\TPL-G2-2-published.json": "28aab9c63f77bc5da63156e63a71b127572f2149e1d74425c1a2014e9d25b2b3",
+    "datasets\\formal_templates_v1\\TPL-G2-3-event-state.json": "1520d2d7e488f5218b6457856d1373fcc19d8ed493c927b7fd3bec0fb2218824",
+    "datasets\\formal_templates_v1\\TPL-G2-3-input.json": "e5273fec450bde9340936c9c41b0c110055b9fd45fd0e2576bae18cc0bb40bad",
+    "datasets\\formal_templates_v1\\TPL-G2-3-published.json": "175fbde473d380ebed3e7ffe3623001d1b08b092f7d6c461b0f2c4c6246c27b8",
+    "datasets\\formal_templates_v1\\TPL-G3-1-event-state.json": "b040bc75a93cf680f4b44e0ee5e5ec53692d935bbeaffd346d8aa2b5d508d75a",
+    "datasets\\formal_templates_v1\\TPL-G3-1-input.json": "c34e2ef48176ad6b52e03f6ca6867ffa49eff44319a3a06a686cf4c8c073959b",
+    "datasets\\formal_templates_v1\\TPL-G3-1-published.json": "0fcd9127df68291a21405e5e2c8cf52c099ca53b6b18129e88de6f11e15f4a39",
+    "datasets\\formal_templates_v1\\TPL-G3-2-event-state.json": "46679eb4641d99d284a3dc452c52ea34c89c69f04822eb47c08a8c3ee15b7531",
+    "datasets\\formal_templates_v1\\TPL-G3-2-input.json": "e42bda36d043fb554dcdb823a56320c9f7404954eece76c1133f689c631c654b",
+    "datasets\\formal_templates_v1\\TPL-G3-2-published.json": "fcef63d23e35bf4d3048030be6997159c9f08fc3ace73e4d4dedf3b20ae7759d",
+    "datasets\\formal_templates_v1\\TPL-G3-3-event-state.json": "615d7b4ca766f4d0f4555437a1873a6fab9365948915e0f37af514ac170d107b",
+    "datasets\\formal_templates_v1\\TPL-G3-3-input.json": "b7c92b3634a3a1f2f805cbb142292f791ca470b8f78b14946908e96b22ae633c",
+    "datasets\\formal_templates_v1\\TPL-G3-3-published.json": "04f49d18de2d576eb7d35d21d3183ff303533b93a82aa0acde064150e05710d0",
+    "datasets\\formal_templates_v1\\TPL-G4-1-event-state.json": "3a87535b884c45390499ef15f6d6571dbbdd0bbdf199f6c3fc8ac417f122f24d",
+    "datasets\\formal_templates_v1\\TPL-G4-1-input.json": "22b3c6589b757c9c85eae453cb4d1bd5bd8668a0e4315d02bcded4cd7203f62a",
+    "datasets\\formal_templates_v1\\TPL-G4-1-published.json": "d8fe95f6fb335d37707d077b0d85c9e5a1adcb2bba9978ac345be9bb92a1d71b",
+    "datasets\\formal_templates_v1\\TPL-G4-2-event-state.json": "f74af2c42088b09914471e90a8e09d8a4bc963e5a401ae58f13ece9cea06acd3",
+    "datasets\\formal_templates_v1\\TPL-G4-2-input.json": "4a104b8e5869a34c052288c72dff1d6546f1049e9d9b6fc530c438487916b54e",
+    "datasets\\formal_templates_v1\\TPL-G4-2-published.json": "5b054c9208d0452a910255c6792795947e363f889d3c1899a0db1e0531f9bf84",
+    "datasets\\formal_templates_v1\\TPL-G4-3-event-state.json": "c56e802e52c41aaa3a974a10f023e58dd04f924e4643b839488cf30cc9f47662",
+    "datasets\\formal_templates_v1\\TPL-G4-3-input.json": "1ece6042bf7d7dac61732b70b9be57cb2f6e46e21d02e8aaebc6a7075ac02d68",
+    "datasets\\formal_templates_v1\\TPL-G4-3-published.json": "0bc1f54a63c2bdac54d8acab1fc92027d30d18f8ec5f1cb95a214d8031757cd6",
+    "results\\formal_templates_v1\\cases\\TPL-G1-1.json": "f094dd7059ac7b56168c1702b140b563f44d4a4763482ec2c8f3560fb2e0559a",
+    "results\\formal_templates_v1\\cases\\TPL-G1-2.json": "03a173fe26361ad39746980abc27524b9ebf92dd8b1b109b0074a573dead8407",
+    "results\\formal_templates_v1\\cases\\TPL-G1-3.json": "9f7c022deaede73e1d7ec959f96e21b060ddb4344fa0a8851f887f2b88f0d447",
+    "results\\formal_templates_v1\\cases\\TPL-G2-1.json": "80ca8a378ff857e20677d080c0ab12d706dcd462f2aff246cfda58f85d64aa38",
+    "results\\formal_templates_v1\\cases\\TPL-G2-2.json": "7b385d0f5572c3d0ff38dc847f3912ede7b9e3bd49d9e323d934b1f0d2efe594",
+    "results\\formal_templates_v1\\cases\\TPL-G2-3.json": "3f1000b39b7896883f827d96541491241ac44c4eac9f8dcb93fe6510cf6d2d88",
+    "results\\formal_templates_v1\\cases\\TPL-G3-1.json": "341ec799462c876feee690f1442429f2f010a60e212150de8235ee78af912aa9",
+    "results\\formal_templates_v1\\cases\\TPL-G3-2.json": "875fca10b94b2877d3226a0291b1d4619c893949afeca1dea9a313a2cc7f0154",
+    "results\\formal_templates_v1\\cases\\TPL-G3-3.json": "9e9d65a169d8a02a926539b6bfdcf355bf9d946669226d5c3b3c5556e3bc4505",
+    "results\\formal_templates_v1\\cases\\TPL-G4-1.json": "56dd8e4a15d1aac75c5281ce7b2ce582f47d836387f8c67ccf5c6eb697cca12f",
+    "results\\formal_templates_v1\\cases\\TPL-G4-2.json": "c36d96de64e77123e53d7f0eb06855356cdf0c721ba533be2bcafdb5f071b9a7",
+    "results\\formal_templates_v1\\cases\\TPL-G4-3.json": "135a8bfe2a036f2b15cbdef8bd58965abc3bf459b1300ac300555ea181157791",
+    "results\\formal_templates_v1\\summary.json": "c57de2acc8b63bc9546b0007f7340eaf9fa317cc98532e9b7eb96ebe20286b31",
+    "results\\formal_templates_v1\\qualification.csv": "7cb0678d54ac739b6ef86e33a7d9f141aaa7d84dbf9cf2d4612220475495226e"
+  }
+}

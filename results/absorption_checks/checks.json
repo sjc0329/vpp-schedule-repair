@@ -1,0 +1,1592 @@
+{
+  "all_passed": true,
+  "count": 7,
+  "checks": {
+    "local_absorption": {
+      "event_energy": 1,
+      "local_only_energy": 1.0,
+      "absorption_energy": 1.0,
+      "max_power_by_slot": {
+        "4": 4
+      },
+      "surplus_by_slot": {
+        "4": {
+          "A": 4.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0
+        }
+      },
+      "export_room_by_slot": {
+        "4": {
+          "B": 40.0,
+          "C": 40.0,
+          "D": 40.0
+        }
+      },
+      "sink_room_by_slot": {
+        "4": 40.0
+      },
+      "subset_capacities": [
+        {
+          "edges": [],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "C"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "D"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B",
+            "C"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B",
+            "D"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "C",
+            "D"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B",
+            "C",
+            "D"
+          ],
+          "energy": 1.0
+        }
+      ],
+      "minimum_direct_support_edges": 0,
+      "direct_absorption_sufficient": true,
+      "reference_remaining_cost": 0.0,
+      "witness_plan": {
+        "case_id": "CERT-LOCAL",
+        "version": 1,
+        "edges": {
+          "A": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              4.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "B": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "C": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "D": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "resources": {},
+        "tasks": {
+          "new": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "grid": {
+          "buy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sell": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mode": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "witness_validation": {
+        "valid": true,
+        "errors": [],
+        "residuals": {
+          "interface": 0.0,
+          "renewable": 0.0,
+          "executed_prefix": 0.0,
+          "task_power_window": 0.0,
+          "task_energy": 0.0,
+          "edge_balance": 0.0,
+          "grid_integrality": 0.0,
+          "grid_mode_range": 0.0,
+          "grid_import": 0.0,
+          "grid_export": 0.0,
+          "grid_buy_mode": 0.0,
+          "grid_sell_mode": 0.0,
+          "simultaneous_buy_sell": 0.0,
+          "bus_balance": 0.0,
+          "total_deviation_cap": 0.0,
+          "participation": 0.0
+        },
+        "cost": 0.0,
+        "dq": 0.0,
+        "d_edge": 0.0,
+        "d_vpp": 0.0,
+        "participants": [],
+        "n_adjust": 0,
+        "changed_interfaces": []
+      },
+      "scope": "Fixed old controls; renewable curtailment recovery only",
+      "selected_direct_support_edges": [],
+      "allocation": [
+        {
+          "slot": 4,
+          "task": 4,
+          "local": 4,
+          "remote": {}
+        }
+      ]
+    },
+    "remote_absorption": {
+      "event_energy": 1,
+      "local_only_energy": 0.0,
+      "absorption_energy": 1.0,
+      "max_power_by_slot": {
+        "4": 4
+      },
+      "surplus_by_slot": {
+        "4": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 4.0,
+          "D": 0.0
+        }
+      },
+      "export_room_by_slot": {
+        "4": {
+          "B": 40.0,
+          "C": 40.0,
+          "D": 40.0
+        }
+      },
+      "sink_room_by_slot": {
+        "4": 40.0
+      },
+      "subset_capacities": [
+        {
+          "edges": [],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "C"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "D"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B",
+            "C"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B",
+            "D"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "C",
+            "D"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B",
+            "C",
+            "D"
+          ],
+          "energy": 1.0
+        }
+      ],
+      "minimum_direct_support_edges": 1,
+      "direct_absorption_sufficient": true,
+      "reference_remaining_cost": 0.0,
+      "witness_plan": {
+        "case_id": "CERT-REMOTE",
+        "version": 1,
+        "edges": {
+          "A": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -4.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "B": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "C": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              4.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              4.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "D": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "resources": {},
+        "tasks": {
+          "new": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "grid": {
+          "buy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sell": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mode": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "witness_validation": {
+        "valid": true,
+        "errors": [],
+        "residuals": {
+          "interface": 0.0,
+          "renewable": 0.0,
+          "executed_prefix": 0.0,
+          "task_power_window": 0.0,
+          "task_energy": 0.0,
+          "edge_balance": 0.0,
+          "grid_integrality": 0.0,
+          "grid_mode_range": 0.0,
+          "grid_import": 0.0,
+          "grid_export": 0.0,
+          "grid_buy_mode": 0.0,
+          "grid_sell_mode": 0.0,
+          "simultaneous_buy_sell": 0.0,
+          "bus_balance": 0.0,
+          "total_deviation_cap": 0.0,
+          "participation": 0.0
+        },
+        "cost": 0.0,
+        "dq": 2.0,
+        "d_edge": 2.0,
+        "d_vpp": 0.0,
+        "participants": [
+          "C"
+        ],
+        "n_adjust": 1,
+        "changed_interfaces": [
+          "A",
+          "C"
+        ]
+      },
+      "scope": "Fixed old controls; renewable curtailment recovery only",
+      "selected_direct_support_edges": [
+        "C"
+      ],
+      "allocation": [
+        {
+          "slot": 4,
+          "task": 4,
+          "local": 0.0,
+          "remote": {
+            "C": 4.0
+          }
+        }
+      ]
+    },
+    "source_interface_limit": {
+      "event_energy": 1,
+      "local_only_energy": 0.0,
+      "absorption_energy": 0.0,
+      "max_power_by_slot": {
+        "4": 0.0
+      },
+      "surplus_by_slot": {
+        "4": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 4.0,
+          "D": 0.0
+        }
+      },
+      "export_room_by_slot": {
+        "4": {
+          "B": 80.0,
+          "C": 0.0,
+          "D": 40.0
+        }
+      },
+      "sink_room_by_slot": {
+        "4": 40.0
+      },
+      "subset_capacities": [
+        {
+          "edges": [],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "C"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "D"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B",
+            "C"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B",
+            "D"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "C",
+            "D"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B",
+            "C",
+            "D"
+          ],
+          "energy": 0.0
+        }
+      ],
+      "minimum_direct_support_edges": null,
+      "direct_absorption_sufficient": false,
+      "reference_remaining_cost": 0.0,
+      "witness_plan": null,
+      "witness_validation": null,
+      "scope": "Fixed old controls; renewable curtailment recovery only"
+    },
+    "sink_interface_limit": {
+      "event_energy": 1,
+      "local_only_energy": 0.0,
+      "absorption_energy": 0.0,
+      "max_power_by_slot": {
+        "4": 0.0
+      },
+      "surplus_by_slot": {
+        "4": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 4.0,
+          "D": 0.0
+        }
+      },
+      "export_room_by_slot": {
+        "4": {
+          "B": 40.0,
+          "C": 40.0,
+          "D": 40.0
+        }
+      },
+      "sink_room_by_slot": {
+        "4": 0.0
+      },
+      "subset_capacities": [
+        {
+          "edges": [],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "C"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "D"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B",
+            "C"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B",
+            "D"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "C",
+            "D"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B",
+            "C",
+            "D"
+          ],
+          "energy": 0.0
+        }
+      ],
+      "minimum_direct_support_edges": null,
+      "direct_absorption_sufficient": false,
+      "reference_remaining_cost": 6.0,
+      "witness_plan": null,
+      "witness_validation": null,
+      "scope": "Fixed old controls; renewable curtailment recovery only"
+    },
+    "task_power_and_deadline": {
+      "event_energy": 1.25,
+      "local_only_energy": 1.0,
+      "absorption_energy": 1.0,
+      "max_power_by_slot": {
+        "4": 4,
+        "5": 0.0
+      },
+      "surplus_by_slot": {
+        "4": {
+          "A": 8.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0
+        },
+        "5": {
+          "A": 0.0,
+          "B": 0.0,
+          "C": 0.0,
+          "D": 0.0
+        }
+      },
+      "export_room_by_slot": {
+        "4": {
+          "B": 40.0,
+          "C": 40.0,
+          "D": 40.0
+        },
+        "5": {
+          "B": 40.0,
+          "C": 40.0,
+          "D": 40.0
+        }
+      },
+      "sink_room_by_slot": {
+        "4": 40.0,
+        "5": 40.0
+      },
+      "subset_capacities": [
+        {
+          "edges": [],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "C"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "D"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B",
+            "C"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B",
+            "D"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "C",
+            "D"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B",
+            "C",
+            "D"
+          ],
+          "energy": 1.0
+        }
+      ],
+      "minimum_direct_support_edges": null,
+      "direct_absorption_sufficient": false,
+      "reference_remaining_cost": 0.0,
+      "witness_plan": null,
+      "witness_validation": null,
+      "scope": "Fixed old controls; renewable curtailment recovery only"
+    },
+    "minimum_direct_support_subset": {
+      "event_energy": 1,
+      "local_only_energy": 0.0,
+      "absorption_energy": 1.0,
+      "max_power_by_slot": {
+        "4": 4
+      },
+      "surplus_by_slot": {
+        "4": {
+          "A": 0.0,
+          "B": 2.0,
+          "C": 2.0,
+          "D": 0.0
+        }
+      },
+      "export_room_by_slot": {
+        "4": {
+          "B": 40.0,
+          "C": 40.0,
+          "D": 40.0
+        }
+      },
+      "sink_room_by_slot": {
+        "4": 40.0
+      },
+      "subset_capacities": [
+        {
+          "edges": [],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B"
+          ],
+          "energy": 0.5
+        },
+        {
+          "edges": [
+            "C"
+          ],
+          "energy": 0.5
+        },
+        {
+          "edges": [
+            "D"
+          ],
+          "energy": 0.0
+        },
+        {
+          "edges": [
+            "B",
+            "C"
+          ],
+          "energy": 1.0
+        },
+        {
+          "edges": [
+            "B",
+            "D"
+          ],
+          "energy": 0.5
+        },
+        {
+          "edges": [
+            "C",
+            "D"
+          ],
+          "energy": 0.5
+        },
+        {
+          "edges": [
+            "B",
+            "C",
+            "D"
+          ],
+          "energy": 1.0
+        }
+      ],
+      "minimum_direct_support_edges": 2,
+      "direct_absorption_sufficient": true,
+      "reference_remaining_cost": 0.0,
+      "witness_plan": {
+        "case_id": "CERT-MULTI",
+        "version": 1,
+        "edges": {
+          "A": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -4.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "B": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "C": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "D": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "resources": {},
+        "tasks": {
+          "new": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "grid": {
+          "buy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sell": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mode": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "witness_validation": {
+        "valid": true,
+        "errors": [],
+        "residuals": {
+          "interface": 0.0,
+          "renewable": 0.0,
+          "executed_prefix": 0.0,
+          "task_power_window": 0.0,
+          "task_energy": 0.0,
+          "edge_balance": 0.0,
+          "grid_integrality": 0.0,
+          "grid_mode_range": 0.0,
+          "grid_import": 0.0,
+          "grid_export": 0.0,
+          "grid_buy_mode": 0.0,
+          "grid_sell_mode": 0.0,
+          "simultaneous_buy_sell": 0.0,
+          "bus_balance": 0.0,
+          "total_deviation_cap": 0.0,
+          "participation": 0.0
+        },
+        "cost": 0.0,
+        "dq": 2.0,
+        "d_edge": 2.0,
+        "d_vpp": 0.0,
+        "participants": [
+          "B",
+          "C"
+        ],
+        "n_adjust": 2,
+        "changed_interfaces": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "scope": "Fixed old controls; renewable curtailment recovery only",
+      "selected_direct_support_edges": [
+        "B",
+        "C"
+      ],
+      "allocation": [
+        {
+          "slot": 4,
+          "task": 4,
+          "local": 0.0,
+          "remote": {
+            "B": 2.0,
+            "C": 2.0
+          }
+        }
+      ]
+    },
+    "certificate_is_sufficient_not_necessary": {
+      "certificate": {
+        "event_energy": 1,
+        "local_only_energy": 0.0,
+        "absorption_energy": 0.0,
+        "max_power_by_slot": {
+          "4": 0.0
+        },
+        "surplus_by_slot": {
+          "4": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0
+          }
+        },
+        "export_room_by_slot": {
+          "4": {
+            "B": 40.0,
+            "C": 40.0,
+            "D": 40.0
+          }
+        },
+        "sink_room_by_slot": {
+          "4": 40.0
+        },
+        "subset_capacities": [
+          {
+            "edges": [],
+            "energy": 0.0
+          },
+          {
+            "edges": [
+              "B"
+            ],
+            "energy": 0.0
+          },
+          {
+            "edges": [
+              "C"
+            ],
+            "energy": 0.0
+          },
+          {
+            "edges": [
+              "D"
+            ],
+            "energy": 0.0
+          },
+          {
+            "edges": [
+              "B",
+              "C"
+            ],
+            "energy": 0.0
+          },
+          {
+            "edges": [
+              "B",
+              "D"
+            ],
+            "energy": 0.0
+          },
+          {
+            "edges": [
+              "C",
+              "D"
+            ],
+            "energy": 0.0
+          },
+          {
+            "edges": [
+              "B",
+              "C",
+              "D"
+            ],
+            "energy": 0.0
+          }
+        ],
+        "minimum_direct_support_edges": null,
+        "direct_absorption_sufficient": false,
+        "reference_remaining_cost": 0.0,
+        "witness_plan": null,
+        "witness_validation": null,
+        "scope": "Fixed old controls; renewable curtailment recovery only"
+      },
+      "storage_witness": {
+        "case_id": "CERT-NOT-NECESSARY",
+        "version": 1,
+        "edges": {
+          "A": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "B": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "C": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          "D": {
+            "q": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "renewable": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "resources": {
+          "a_store": {
+            "charge": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "discharge": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              4,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "mode": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "energy": [
+              60,
+              60.0,
+              60.0,
+              60.0,
+              60.0,
+              58.888888888888886,
+              58.888888888888886,
+              58.888888888888886,
+              58.888888888888886,
+              58.888888888888886,
+              58.888888888888886,
+              58.888888888888886,
+              58.888888888888886
+            ]
+          }
+        },
+        "tasks": {
+          "new": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            4,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "grid": {
+          "buy": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sell": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "mode": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "validation": {
+        "valid": true,
+        "errors": [],
+        "residuals": {
+          "interface": 0.0,
+          "renewable": 0.0,
+          "executed_prefix": 0.0,
+          "initial_energy": 0.0,
+          "energy_bounds": 0.0,
+          "battery_integrality": 0.0,
+          "battery_mode_range": 0.0,
+          "charge_bound": 0.0,
+          "discharge_bound": 0.0,
+          "charge_mode": 0.0,
+          "discharge_mode": 0.0,
+          "simultaneous_charge_discharge": 0.0,
+          "energy_transition": 0.0,
+          "task_power_window": 0.0,
+          "task_energy": 0.0,
+          "edge_balance": 0.0,
+          "grid_integrality": 0.0,
+          "grid_mode_range": 0.0,
+          "grid_import": 0.0,
+          "grid_export": 0.0,
+          "grid_buy_mode": 0.0,
+          "grid_sell_mode": 0.0,
+          "simultaneous_buy_sell": 0.0,
+          "bus_balance": 0.0,
+          "total_deviation_cap": 0.0
+        },
+        "cost": 0.04,
+        "dq": 0.0,
+        "d_edge": 0.0,
+        "d_vpp": 0.0,
+        "participants": [],
+        "n_adjust": 0,
+        "changed_interfaces": []
+      }
+    }
+  }
+}

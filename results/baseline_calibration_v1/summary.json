@@ -1,0 +1,252 @@
+{
+  "cases": 13,
+  "solver_calls": 247,
+  "planned_solver_calls": 247,
+  "valid": 245,
+  "optimal": 219,
+  "accepted": 219,
+  "errors": 0,
+  "rankings": {
+    "tracking": [
+      {
+        "parameter_id": "T9",
+        "configuration": {
+          "penalty": 10.0,
+          "rho": 0.75
+        },
+        "valid": 13,
+        "optimal": 12,
+        "within_reference_budget": 12,
+        "complete": true,
+        "family_balanced_d": 1.3572566852930796,
+        "family_balanced_n": 0.9111111111111111,
+        "family_balanced_extra": 0.10851647416464989
+      },
+      {
+        "parameter_id": "T7",
+        "configuration": {
+          "penalty": 10.0,
+          "rho": 0.25
+        },
+        "valid": 13,
+        "optimal": 10,
+        "within_reference_budget": 12,
+        "complete": true,
+        "family_balanced_d": 1.4306777708122858,
+        "family_balanced_n": 0.7888888888888889,
+        "family_balanced_extra": 0.05426325048333706
+      },
+      {
+        "parameter_id": "T5",
+        "configuration": {
+          "penalty": 1.0,
+          "rho": 0.5
+        },
+        "valid": 13,
+        "optimal": 9,
+        "within_reference_budget": 12,
+        "complete": true,
+        "family_balanced_d": 1.647224275520528,
+        "family_balanced_n": 0.8444444444444443,
+        "family_balanced_extra": 0.06601249999995792
+      },
+      {
+        "parameter_id": "T6",
+        "configuration": {
+          "penalty": 1.0,
+          "rho": 0.75
+        },
+        "valid": 13,
+        "optimal": 9,
+        "within_reference_budget": 12,
+        "complete": true,
+        "family_balanced_d": 2.9060147622786507,
+        "family_balanced_n": 0.9111111111111111,
+        "family_balanced_extra": 0.1954760766658314
+      },
+      {
+        "parameter_id": "T3",
+        "configuration": {
+          "penalty": 0.1,
+          "rho": 0.75
+        },
+        "valid": 13,
+        "optimal": 12,
+        "within_reference_budget": 12,
+        "complete": true,
+        "family_balanced_d": 3.4106827488733353,
+        "family_balanced_n": 0.9333333333333332,
+        "family_balanced_extra": 0.7277392399154827
+      },
+      {
+        "parameter_id": "T8",
+        "configuration": {
+          "penalty": 10.0,
+          "rho": 0.5
+        },
+        "valid": 13,
+        "optimal": 9,
+        "within_reference_budget": 11,
+        "complete": true,
+        "family_balanced_d": 3.652926908398885,
+        "family_balanced_n": 0.9111111111111111,
+        "family_balanced_extra": 0.497868966826119
+      },
+      {
+        "parameter_id": "T1",
+        "configuration": {
+          "penalty": 0.1,
+          "rho": 0.25
+        },
+        "valid": 13,
+        "optimal": 8,
+        "within_reference_budget": 10,
+        "complete": true,
+        "family_balanced_d": 3.6884181894580523,
+        "family_balanced_n": 0.888888888888889,
+        "family_balanced_extra": 0.5689309942779588
+      },
+      {
+        "parameter_id": "T4",
+        "configuration": {
+          "penalty": 1.0,
+          "rho": 0.25
+        },
+        "valid": 12,
+        "optimal": 10,
+        "within_reference_budget": 12,
+        "complete": false,
+        "family_balanced_d": 1.3850291033851818,
+        "family_balanced_n": 0.9111111111111111,
+        "family_balanced_extra": 0.0023712789894494435
+      },
+      {
+        "parameter_id": "T2",
+        "configuration": {
+          "penalty": 0.1,
+          "rho": 0.5
+        },
+        "valid": 12,
+        "optimal": 10,
+        "within_reference_budget": 11,
+        "complete": false,
+        "family_balanced_d": 1.8426256824072618,
+        "family_balanced_n": 0.8222222222222222,
+        "family_balanced_extra": 0.18209868456859218
+      }
+    ],
+    "scalar": [
+      {
+        "parameter_id": "S5",
+        "configuration": {
+          "cost": 0.45,
+          "deviation": 0.45,
+          "participation": 0.1
+        },
+        "valid": 13,
+        "optimal": 13,
+        "within_reference_budget": 13,
+        "complete": true,
+        "family_balanced_d": 0.9952502617157389,
+        "family_balanced_n": 0.11111111111111112,
+        "family_balanced_extra": 0.03177841057092297
+      },
+      {
+        "parameter_id": "S7",
+        "configuration": {
+          "cost": 0.1,
+          "deviation": 0.45,
+          "participation": 0.45
+        },
+        "valid": 13,
+        "optimal": 13,
+        "within_reference_budget": 13,
+        "complete": true,
+        "family_balanced_d": 0.9959375000000016,
+        "family_balanced_n": 0.0,
+        "family_balanced_extra": 0.10724044339935057
+      },
+      {
+        "parameter_id": "S3",
+        "configuration": {
+          "cost": 0.2,
+          "deviation": 0.6,
+          "participation": 0.2
+        },
+        "valid": 13,
+        "optimal": 13,
+        "within_reference_budget": 13,
+        "complete": true,
+        "family_balanced_d": 0.9959375000000017,
+        "family_balanced_n": 0.0,
+        "family_balanced_extra": 0.10724044339935132
+      },
+      {
+        "parameter_id": "S1",
+        "configuration": {
+          "cost": 0.3333333333333333,
+          "deviation": 0.3333333333333333,
+          "participation": 0.3333333333333333
+        },
+        "valid": 13,
+        "optimal": 13,
+        "within_reference_budget": 13,
+        "complete": true,
+        "family_balanced_d": 1.0116923476454318,
+        "family_balanced_n": 0.0,
+        "family_balanced_extra": 0.10181209044459576
+      },
+      {
+        "parameter_id": "S4",
+        "configuration": {
+          "cost": 0.2,
+          "deviation": 0.2,
+          "participation": 0.6
+        },
+        "valid": 13,
+        "optimal": 13,
+        "within_reference_budget": 13,
+        "complete": true,
+        "family_balanced_d": 1.0116923476454325,
+        "family_balanced_n": 0.0,
+        "family_balanced_extra": 0.10181209044459441
+      },
+      {
+        "parameter_id": "S6",
+        "configuration": {
+          "cost": 0.45,
+          "deviation": 0.1,
+          "participation": 0.45
+        },
+        "valid": 13,
+        "optimal": 13,
+        "within_reference_budget": 13,
+        "complete": true,
+        "family_balanced_d": 1.016626646503638,
+        "family_balanced_n": 0.0,
+        "family_balanced_extra": 0.10134554616152647
+      },
+      {
+        "parameter_id": "S2",
+        "configuration": {
+          "cost": 0.6,
+          "deviation": 0.2,
+          "participation": 0.2
+        },
+        "valid": 13,
+        "optimal": 13,
+        "within_reference_budget": 13,
+        "complete": true,
+        "family_balanced_d": 1.0166266465036384,
+        "family_balanced_n": 0.0,
+        "family_balanced_extra": 0.10134554616152824
+      }
+    ]
+  },
+  "recommendations": {
+    "tracking": "T9",
+    "scalar": "S5"
+  },
+  "recommendation_status": "requires_review",
+  "caution": "Calibration cases are related designed fixtures, not an independent population sample. Budget compliance here is an assessment, not a hard constraint in baseline solves. No formal comparison or ablation has been executed."
+}

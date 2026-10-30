@@ -1,0 +1,930 @@
+{
+  "all": {
+    "configurations": 180,
+    "valid": 180,
+    "baseline_optimal": 166,
+    "d_counts": {
+      "own_lower": 175,
+      "tied": 5,
+      "own_higher": 0
+    },
+    "n_counts": {
+      "own_lower": 150,
+      "tied": 20,
+      "own_higher": 10
+    },
+    "cost_counts": {
+      "own_lower": 0,
+      "tied": 110,
+      "own_higher": 70
+    },
+    "averages_all": {
+      "configurations": 180,
+      "own_mean_d": 4.417122676476081,
+      "tracking_mean_d": 7.669922785818883,
+      "own_mean_n": 0.55,
+      "tracking_mean_n": 2.3444444444444446,
+      "mean_cost_difference": 0.25118287838760733
+    },
+    "averages_tracking_optimal": {
+      "configurations": 166,
+      "own_mean_d": 4.19840856591588,
+      "tracking_mean_d": 5.092567035130709,
+      "own_mean_n": 0.5843373493975904,
+      "tracking_mean_n": 2.2951807228915664,
+      "mean_cost_difference": 0.2648896181434921
+    },
+    "own_d_lower_among_tracking_optimal": 161,
+    "own_d_higher_among_tracking_optimal": 0,
+    "baseline_median_solver_seconds": 1.2720909000490792
+  },
+  "by_budget": {
+    "alpha_0": {
+      "configurations": 60,
+      "valid": 60,
+      "baseline_optimal": 55,
+      "d_counts": {
+        "own_lower": 55,
+        "tied": 5,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 55,
+        "tied": 5,
+        "own_higher": 0
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 60,
+        "own_higher": 0
+      },
+      "averages_all": {
+        "configurations": 60,
+        "own_mean_d": 5.248025779122656,
+        "tracking_mean_d": 7.604061968358173,
+        "own_mean_n": 0.3,
+        "tracking_mean_n": 2.3833333333333333,
+        "mean_cost_difference": 2.9227685161004045e-09
+      },
+      "averages_tracking_optimal": {
+        "configurations": 55,
+        "own_mean_d": 5.101149661471667,
+        "tracking_mean_d": 5.104127325715528,
+        "own_mean_n": 0.3090909090909091,
+        "tracking_mean_n": 2.327272727272727,
+        "mean_cost_difference": 2.961244728215785e-09
+      },
+      "own_d_lower_among_tracking_optimal": 50,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 1.2462747999816202
+    },
+    "alpha_0p1": {
+      "configurations": 60,
+      "valid": 60,
+      "baseline_optimal": 55,
+      "d_counts": {
+        "own_lower": 60,
+        "tied": 0,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 48,
+        "tied": 9,
+        "own_higher": 3
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 25,
+        "own_higher": 35
+      },
+      "averages_all": {
+        "configurations": 60,
+        "own_mean_d": 4.528379788501483,
+        "tracking_mean_d": 8.317729350692398,
+        "own_mean_n": 0.5833333333333334,
+        "tracking_mean_n": 2.3,
+        "mean_cost_difference": 0.23822399721059023
+      },
+      "averages_tracking_optimal": {
+        "configurations": 55,
+        "own_mean_d": 4.3234330014812485,
+        "tracking_mean_d": 5.09662766943604,
+        "own_mean_n": 0.6181818181818182,
+        "tracking_mean_n": 2.2545454545454544,
+        "mean_cost_difference": 0.2549586292064703
+      },
+      "own_d_lower_among_tracking_optimal": 55,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 1.293215399957262
+    },
+    "alpha_0p3": {
+      "configurations": 60,
+      "valid": 60,
+      "baseline_optimal": 56,
+      "d_counts": {
+        "own_lower": 60,
+        "tied": 0,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 47,
+        "tied": 6,
+        "own_higher": 7
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 25,
+        "own_higher": 35
+      },
+      "averages_all": {
+        "configurations": 60,
+        "own_mean_d": 3.474962461804104,
+        "tracking_mean_d": 7.087977038406079,
+        "own_mean_n": 0.7666666666666667,
+        "tracking_mean_n": 2.35,
+        "mean_cost_difference": 0.5153246350294632
+      },
+      "averages_tracking_optimal": {
+        "configurations": 56,
+        "own_mean_d": 3.188995990707603,
+        "tracking_mean_d": 5.077225055327881,
+        "own_mean_n": 0.8214285714285714,
+        "tracking_mean_n": 2.3035714285714284,
+        "mean_cost_difference": 0.5348027114749172
+      },
+      "own_d_lower_among_tracking_optimal": 56,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 1.2798933500307612
+    }
+  },
+  "by_family": {
+    "G1": {
+      "configurations": 45,
+      "valid": 45,
+      "baseline_optimal": 45,
+      "d_counts": {
+        "own_lower": 42,
+        "tied": 3,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 34,
+        "tied": 9,
+        "own_higher": 2
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 17,
+        "own_higher": 28
+      },
+      "averages_all": {
+        "configurations": 45,
+        "own_mean_d": 6.665610409636628,
+        "tracking_mean_d": 6.8031557340711375,
+        "own_mean_n": 0.26666666666666666,
+        "tracking_mean_n": 2.088888888888889,
+        "mean_cost_difference": 0.23928384932426702
+      },
+      "averages_tracking_optimal": {
+        "configurations": 45,
+        "own_mean_d": 6.665610409636628,
+        "tracking_mean_d": 6.8031557340711375,
+        "own_mean_n": 0.26666666666666666,
+        "tracking_mean_n": 2.088888888888889,
+        "mean_cost_difference": 0.23928384932426702
+      },
+      "own_d_lower_among_tracking_optimal": 42,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 1.2446986000286415
+    },
+    "G2": {
+      "configurations": 45,
+      "valid": 45,
+      "baseline_optimal": 45,
+      "d_counts": {
+        "own_lower": 45,
+        "tied": 0,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 45,
+        "tied": 0,
+        "own_higher": 0
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 39,
+        "own_higher": 6
+      },
+      "averages_all": {
+        "configurations": 45,
+        "own_mean_d": 0.5082931980234087,
+        "tracking_mean_d": 0.5132706252873731,
+        "own_mean_n": 0.8,
+        "tracking_mean_n": 3,
+        "mean_cost_difference": 0.021391565137270478
+      },
+      "averages_tracking_optimal": {
+        "configurations": 45,
+        "own_mean_d": 0.5082931980234087,
+        "tracking_mean_d": 0.5132706252873731,
+        "own_mean_n": 0.8,
+        "tracking_mean_n": 3,
+        "mean_cost_difference": 0.021391565137270478
+      },
+      "own_d_lower_among_tracking_optimal": 45,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 1.7236688000848517
+    },
+    "G3": {
+      "configurations": 45,
+      "valid": 45,
+      "baseline_optimal": 31,
+      "d_counts": {
+        "own_lower": 45,
+        "tied": 0,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 45,
+        "tied": 0,
+        "own_higher": 0
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 39,
+        "own_higher": 6
+      },
+      "averages_all": {
+        "configurations": 45,
+        "own_mean_d": 6.8009267609101975,
+        "tracking_mean_d": 16.56258910059643,
+        "own_mean_n": 0.2,
+        "tracking_mean_n": 2.7777777777777777,
+        "mean_cost_difference": 0.07072276331075183
+      },
+      "averages_tracking_optimal": {
+        "configurations": 31,
+        "own_mean_d": 6.706304658622594,
+        "tracking_mean_d": 6.777307610036709,
+        "own_mean_n": 0.22580645161290322,
+        "tracking_mean_n": 2.7096774193548385,
+        "mean_cost_difference": 0.06262202745271621
+      },
+      "own_d_lower_among_tracking_optimal": 31,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 1.5211894999956712
+    },
+    "G4": {
+      "configurations": 45,
+      "valid": 45,
+      "baseline_optimal": 45,
+      "d_counts": {
+        "own_lower": 43,
+        "tied": 2,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 26,
+        "tied": 11,
+        "own_higher": 8
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 15,
+        "own_higher": 30
+      },
+      "averages_all": {
+        "configurations": 45,
+        "own_mean_d": 3.6936603373340904,
+        "tracking_mean_d": 6.800675683320592,
+        "own_mean_n": 0.9333333333333333,
+        "tracking_mean_n": 1.511111111111111,
+        "mean_cost_difference": 0.67333333577814
+      },
+      "averages_tracking_optimal": {
+        "configurations": 45,
+        "own_mean_d": 3.6936603373340904,
+        "tracking_mean_d": 6.800675683320592,
+        "own_mean_n": 0.9333333333333333,
+        "tracking_mean_n": 1.511111111111111,
+        "mean_cost_difference": 0.67333333577814
+      },
+      "own_d_lower_among_tracking_optimal": 43,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 0.7663252999773249
+    }
+  },
+  "by_profile": {
+    "CLOUD_EVENING": {
+      "configurations": 36,
+      "valid": 36,
+      "baseline_optimal": 33,
+      "d_counts": {
+        "own_lower": 36,
+        "tied": 0,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 34,
+        "tied": 1,
+        "own_higher": 1
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 24,
+        "own_higher": 12
+      },
+      "averages_all": {
+        "configurations": 36,
+        "own_mean_d": 5.675117945968967,
+        "tracking_mean_d": 9.93426296981162,
+        "own_mean_n": 0.5833333333333334,
+        "tracking_mean_n": 2.638888888888889,
+        "mean_cost_difference": 0.258543240657903
+      },
+      "averages_tracking_optimal": {
+        "configurations": 33,
+        "own_mean_d": 5.463765031966122,
+        "tracking_mean_d": 6.514357978992505,
+        "own_mean_n": 0.6363636363636364,
+        "tracking_mean_n": 2.606060606060606,
+        "mean_cost_difference": 0.2820471716268084
+      },
+      "own_d_lower_among_tracking_optimal": 33,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 1.2358074999647215
+    },
+    "DAY_SURPLUS": {
+      "configurations": 36,
+      "valid": 36,
+      "baseline_optimal": 33,
+      "d_counts": {
+        "own_lower": 35,
+        "tied": 1,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 31,
+        "tied": 4,
+        "own_higher": 1
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 18,
+        "own_higher": 18
+      },
+      "averages_all": {
+        "configurations": 36,
+        "own_mean_d": 5.095959402971386,
+        "tracking_mean_d": 9.3787011031929,
+        "own_mean_n": 0.7777777777777778,
+        "tracking_mean_n": 2.5277777777777777,
+        "mean_cost_difference": 0.3308616619474118
+      },
+      "averages_tracking_optimal": {
+        "configurations": 33,
+        "own_mean_d": 4.8275235964641645,
+        "tracking_mean_d": 5.880556314180487,
+        "own_mean_n": 0.7878787878787878,
+        "tracking_mean_n": 2.484848484848485,
+        "mean_cost_difference": 0.3233266163126614
+      },
+      "own_d_lower_among_tracking_optimal": 32,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 1.3729438499431126
+    },
+    "ORIGINAL": {
+      "configurations": 108,
+      "valid": 108,
+      "baseline_optimal": 100,
+      "d_counts": {
+        "own_lower": 104,
+        "tied": 4,
+        "own_higher": 0
+      },
+      "n_counts": {
+        "own_lower": 85,
+        "tied": 15,
+        "own_higher": 8
+      },
+      "cost_counts": {
+        "own_lower": 0,
+        "tied": 68,
+        "own_higher": 40
+      },
+      "averages_all": {
+        "configurations": 108,
+        "own_mean_d": 3.771512011146684,
+        "tracking_mean_d": 6.345549952029965,
+        "own_mean_n": 0.46296296296296297,
+        "tracking_mean_n": 2.185185185185185,
+        "mean_cost_difference": 0.22216982977757396
+      },
+      "averages_tracking_optimal": {
+        "configurations": 100,
+        "own_mean_d": 3.5732329720383667,
+        "tracking_mean_d": 4.363339561569888,
+        "own_mean_n": 0.5,
+        "tracking_mean_n": 2.13,
+        "mean_cost_difference": 0.23994341609817182
+      },
+      "own_d_lower_among_tracking_optimal": 96,
+      "own_d_higher_among_tracking_optimal": 0,
+      "baseline_median_solver_seconds": 1.282820750027895
+    }
+  },
+  "interpretation": "Descriptive paired results on designed related cases. Budget configurations are repeated measures, not 180 independent cases. Tracking and proposed methods optimize different objectives; no comparison of their raw objective values. Solver time is implementation-level and historical, not proof of algorithmic speedup.",
+  "practical_sensitivity": {
+    "all": {
+      "configurations": 180,
+      "d_tolerance_rule": "max(0.01 kWh, 1% of event energy)",
+      "d_counts": {
+        "own_lower": 73,
+        "tied": 107,
+        "own_higher": 0
+      },
+      "n_counts_by_control_threshold_kw": {
+        "2e-07": {
+          "own_lower": 150,
+          "tied": 20,
+          "own_higher": 10,
+          "own_mean_n": 0.55,
+          "tracking_mean_n": 2.3444444444444446
+        },
+        "0.0001": {
+          "own_lower": 137,
+          "tied": 30,
+          "own_higher": 13,
+          "own_mean_n": 0.55,
+          "tracking_mean_n": 2.183333333333333
+        },
+        "0.001": {
+          "own_lower": 70,
+          "tied": 72,
+          "own_higher": 38,
+          "own_mean_n": 0.55,
+          "tracking_mean_n": 0.9388888888888889
+        },
+        "0.01": {
+          "own_lower": 49,
+          "tied": 89,
+          "own_higher": 42,
+          "own_mean_n": 0.55,
+          "tracking_mean_n": 0.7666666666666667
+        },
+        "0.1": {
+          "own_lower": 49,
+          "tied": 89,
+          "own_higher": 42,
+          "own_mean_n": 0.55,
+          "tracking_mean_n": 0.7333333333333333
+        }
+      },
+      "coordination_when_d_comparable": {
+        "cases": 107,
+        "control_threshold_kw": 0.01,
+        "own_lower": 33,
+        "tied": 74,
+        "own_higher": 0
+      }
+    },
+    "tracking_optimal_only": {
+      "configurations": 166,
+      "d_tolerance_rule": "max(0.01 kWh, 1% of event energy)",
+      "d_counts": {
+        "own_lower": 60,
+        "tied": 106,
+        "own_higher": 0
+      },
+      "n_counts_by_control_threshold_kw": {
+        "2e-07": {
+          "own_lower": 136,
+          "tied": 20,
+          "own_higher": 10,
+          "own_mean_n": 0.5843373493975904,
+          "tracking_mean_n": 2.2951807228915664
+        },
+        "0.0001": {
+          "own_lower": 123,
+          "tied": 30,
+          "own_higher": 13,
+          "own_mean_n": 0.5843373493975904,
+          "tracking_mean_n": 2.1204819277108435
+        },
+        "0.001": {
+          "own_lower": 58,
+          "tied": 70,
+          "own_higher": 38,
+          "own_mean_n": 0.5843373493975904,
+          "tracking_mean_n": 0.8192771084337349
+        },
+        "0.01": {
+          "own_lower": 37,
+          "tied": 87,
+          "own_higher": 42,
+          "own_mean_n": 0.5843373493975904,
+          "tracking_mean_n": 0.6325301204819277
+        },
+        "0.1": {
+          "own_lower": 37,
+          "tied": 87,
+          "own_higher": 42,
+          "own_mean_n": 0.5843373493975904,
+          "tracking_mean_n": 0.5963855421686747
+        }
+      },
+      "coordination_when_d_comparable": {
+        "cases": 106,
+        "control_threshold_kw": 0.01,
+        "own_lower": 33,
+        "tied": 73,
+        "own_higher": 0
+      }
+    },
+    "by_budget": {
+      "alpha_0": {
+        "configurations": 60,
+        "d_tolerance_rule": "max(0.01 kWh, 1% of event energy)",
+        "d_counts": {
+          "own_lower": 5,
+          "tied": 55,
+          "own_higher": 0
+        },
+        "n_counts_by_control_threshold_kw": {
+          "2e-07": {
+            "own_lower": 55,
+            "tied": 5,
+            "own_higher": 0,
+            "own_mean_n": 0.3,
+            "tracking_mean_n": 2.3833333333333333
+          },
+          "0.0001": {
+            "own_lower": 55,
+            "tied": 5,
+            "own_higher": 0,
+            "own_mean_n": 0.3,
+            "tracking_mean_n": 2.2333333333333334
+          },
+          "0.001": {
+            "own_lower": 19,
+            "tied": 41,
+            "own_higher": 0,
+            "own_mean_n": 0.3,
+            "tracking_mean_n": 0.8333333333333334
+          },
+          "0.01": {
+            "own_lower": 15,
+            "tied": 45,
+            "own_higher": 0,
+            "own_mean_n": 0.3,
+            "tracking_mean_n": 0.7666666666666667
+          },
+          "0.1": {
+            "own_lower": 15,
+            "tied": 45,
+            "own_higher": 0,
+            "own_mean_n": 0.3,
+            "tracking_mean_n": 0.7333333333333333
+          }
+        },
+        "coordination_when_d_comparable": {
+          "cases": 55,
+          "control_threshold_kw": 0.01,
+          "own_lower": 11,
+          "tied": 44,
+          "own_higher": 0
+        }
+      },
+      "alpha_0p1": {
+        "configurations": 60,
+        "d_tolerance_rule": "max(0.01 kWh, 1% of event energy)",
+        "d_counts": {
+          "own_lower": 35,
+          "tied": 25,
+          "own_higher": 0
+        },
+        "n_counts_by_control_threshold_kw": {
+          "2e-07": {
+            "own_lower": 48,
+            "tied": 9,
+            "own_higher": 3,
+            "own_mean_n": 0.5833333333333334,
+            "tracking_mean_n": 2.3
+          },
+          "0.0001": {
+            "own_lower": 41,
+            "tied": 16,
+            "own_higher": 3,
+            "own_mean_n": 0.5833333333333334,
+            "tracking_mean_n": 2.1166666666666667
+          },
+          "0.001": {
+            "own_lower": 28,
+            "tied": 14,
+            "own_higher": 18,
+            "own_mean_n": 0.5833333333333334,
+            "tracking_mean_n": 1.0666666666666667
+          },
+          "0.01": {
+            "own_lower": 18,
+            "tied": 21,
+            "own_higher": 21,
+            "own_mean_n": 0.5833333333333334,
+            "tracking_mean_n": 0.8166666666666667
+          },
+          "0.1": {
+            "own_lower": 18,
+            "tied": 21,
+            "own_higher": 21,
+            "own_mean_n": 0.5833333333333334,
+            "tracking_mean_n": 0.7833333333333333
+          }
+        },
+        "coordination_when_d_comparable": {
+          "cases": 25,
+          "control_threshold_kw": 0.01,
+          "own_lower": 11,
+          "tied": 14,
+          "own_higher": 0
+        }
+      },
+      "alpha_0p3": {
+        "configurations": 60,
+        "d_tolerance_rule": "max(0.01 kWh, 1% of event energy)",
+        "d_counts": {
+          "own_lower": 33,
+          "tied": 27,
+          "own_higher": 0
+        },
+        "n_counts_by_control_threshold_kw": {
+          "2e-07": {
+            "own_lower": 47,
+            "tied": 6,
+            "own_higher": 7,
+            "own_mean_n": 0.7666666666666667,
+            "tracking_mean_n": 2.35
+          },
+          "0.0001": {
+            "own_lower": 41,
+            "tied": 9,
+            "own_higher": 10,
+            "own_mean_n": 0.7666666666666667,
+            "tracking_mean_n": 2.2
+          },
+          "0.001": {
+            "own_lower": 23,
+            "tied": 17,
+            "own_higher": 20,
+            "own_mean_n": 0.7666666666666667,
+            "tracking_mean_n": 0.9166666666666666
+          },
+          "0.01": {
+            "own_lower": 16,
+            "tied": 23,
+            "own_higher": 21,
+            "own_mean_n": 0.7666666666666667,
+            "tracking_mean_n": 0.7166666666666667
+          },
+          "0.1": {
+            "own_lower": 16,
+            "tied": 23,
+            "own_higher": 21,
+            "own_mean_n": 0.7666666666666667,
+            "tracking_mean_n": 0.6833333333333333
+          }
+        },
+        "coordination_when_d_comparable": {
+          "cases": 27,
+          "control_threshold_kw": 0.01,
+          "own_lower": 11,
+          "tied": 16,
+          "own_higher": 0
+        }
+      }
+    },
+    "by_family": {
+      "G1": {
+        "configurations": 45,
+        "d_tolerance_rule": "max(0.01 kWh, 1% of event energy)",
+        "d_counts": {
+          "own_lower": 26,
+          "tied": 19,
+          "own_higher": 0
+        },
+        "n_counts_by_control_threshold_kw": {
+          "2e-07": {
+            "own_lower": 34,
+            "tied": 9,
+            "own_higher": 2,
+            "own_mean_n": 0.26666666666666666,
+            "tracking_mean_n": 2.088888888888889
+          },
+          "0.0001": {
+            "own_lower": 34,
+            "tied": 9,
+            "own_higher": 2,
+            "own_mean_n": 0.26666666666666666,
+            "tracking_mean_n": 2.088888888888889
+          },
+          "0.001": {
+            "own_lower": 5,
+            "tied": 30,
+            "own_higher": 10,
+            "own_mean_n": 0.26666666666666666,
+            "tracking_mean_n": 0.15555555555555556
+          },
+          "0.01": {
+            "own_lower": 0,
+            "tied": 33,
+            "own_higher": 12,
+            "own_mean_n": 0.26666666666666666,
+            "tracking_mean_n": 0
+          },
+          "0.1": {
+            "own_lower": 0,
+            "tied": 33,
+            "own_higher": 12,
+            "own_mean_n": 0.26666666666666666,
+            "tracking_mean_n": 0
+          }
+        },
+        "coordination_when_d_comparable": {
+          "cases": 19,
+          "control_threshold_kw": 0.01,
+          "own_lower": 0,
+          "tied": 19,
+          "own_higher": 0
+        }
+      },
+      "G2": {
+        "configurations": 45,
+        "d_tolerance_rule": "max(0.01 kWh, 1% of event energy)",
+        "d_counts": {
+          "own_lower": 0,
+          "tied": 45,
+          "own_higher": 0
+        },
+        "n_counts_by_control_threshold_kw": {
+          "2e-07": {
+            "own_lower": 45,
+            "tied": 0,
+            "own_higher": 0,
+            "own_mean_n": 0.8,
+            "tracking_mean_n": 3
+          },
+          "0.0001": {
+            "own_lower": 45,
+            "tied": 0,
+            "own_higher": 0,
+            "own_mean_n": 0.8,
+            "tracking_mean_n": 3
+          },
+          "0.001": {
+            "own_lower": 38,
+            "tied": 7,
+            "own_higher": 0,
+            "own_mean_n": 0.8,
+            "tracking_mean_n": 2.2
+          },
+          "0.01": {
+            "own_lower": 32,
+            "tied": 13,
+            "own_higher": 0,
+            "own_mean_n": 0.8,
+            "tracking_mean_n": 2.066666666666667
+          },
+          "0.1": {
+            "own_lower": 32,
+            "tied": 13,
+            "own_higher": 0,
+            "own_mean_n": 0.8,
+            "tracking_mean_n": 1.9333333333333333
+          }
+        },
+        "coordination_when_d_comparable": {
+          "cases": 45,
+          "control_threshold_kw": 0.01,
+          "own_lower": 32,
+          "tied": 13,
+          "own_higher": 0
+        }
+      },
+      "G3": {
+        "configurations": 45,
+        "d_tolerance_rule": "max(0.01 kWh, 1% of event energy)",
+        "d_counts": {
+          "own_lower": 17,
+          "tied": 28,
+          "own_higher": 0
+        },
+        "n_counts_by_control_threshold_kw": {
+          "2e-07": {
+            "own_lower": 45,
+            "tied": 0,
+            "own_higher": 0,
+            "own_mean_n": 0.2,
+            "tracking_mean_n": 2.7777777777777777
+          },
+          "0.0001": {
+            "own_lower": 45,
+            "tied": 0,
+            "own_higher": 0,
+            "own_mean_n": 0.2,
+            "tracking_mean_n": 2.7777777777777777
+          },
+          "0.001": {
+            "own_lower": 27,
+            "tied": 18,
+            "own_higher": 0,
+            "own_mean_n": 0.2,
+            "tracking_mean_n": 1.288888888888889
+          },
+          "0.01": {
+            "own_lower": 17,
+            "tied": 28,
+            "own_higher": 0,
+            "own_mean_n": 0.2,
+            "tracking_mean_n": 1
+          },
+          "0.1": {
+            "own_lower": 17,
+            "tied": 28,
+            "own_higher": 0,
+            "own_mean_n": 0.2,
+            "tracking_mean_n": 1
+          }
+        },
+        "coordination_when_d_comparable": {
+          "cases": 28,
+          "control_threshold_kw": 0.01,
+          "own_lower": 1,
+          "tied": 27,
+          "own_higher": 0
+        }
+      },
+      "G4": {
+        "configurations": 45,
+        "d_tolerance_rule": "max(0.01 kWh, 1% of event energy)",
+        "d_counts": {
+          "own_lower": 30,
+          "tied": 15,
+          "own_higher": 0
+        },
+        "n_counts_by_control_threshold_kw": {
+          "2e-07": {
+            "own_lower": 26,
+            "tied": 11,
+            "own_higher": 8,
+            "own_mean_n": 0.9333333333333333,
+            "tracking_mean_n": 1.511111111111111
+          },
+          "0.0001": {
+            "own_lower": 13,
+            "tied": 21,
+            "own_higher": 11,
+            "own_mean_n": 0.9333333333333333,
+            "tracking_mean_n": 0.8666666666666667
+          },
+          "0.001": {
+            "own_lower": 0,
+            "tied": 17,
+            "own_higher": 28,
+            "own_mean_n": 0.9333333333333333,
+            "tracking_mean_n": 0.1111111111111111
+          },
+          "0.01": {
+            "own_lower": 0,
+            "tied": 15,
+            "own_higher": 30,
+            "own_mean_n": 0.9333333333333333,
+            "tracking_mean_n": 0
+          },
+          "0.1": {
+            "own_lower": 0,
+            "tied": 15,
+            "own_higher": 30,
+            "own_mean_n": 0.9333333333333333,
+            "tracking_mean_n": 0
+          }
+        },
+        "coordination_when_d_comparable": {
+          "cases": 15,
+          "control_threshold_kw": 0.01,
+          "own_lower": 0,
+          "tied": 15,
+          "own_higher": 0
+        }
+      }
+    },
+    "rationale": "Supplementary reporting added after observing small perturbations in the first 28 formal configurations. Does not alter frozen objectives, parameters, primary metrics or data."
+  },
+  "tracking_criterion_tradeoff": {
+    "explanation": "Both plans evaluated under the SAME tracking criterion, not comparison of heterogeneous native objectives. Baseline optimality is checked against the own-method plan.",
+    "own_mean_power_squared": 0.005254879283180459,
+    "baseline_mean_power_squared": 0.0023814771987708005,
+    "own_mean_energy_squared": 0.0010895837142898366,
+    "baseline_mean_energy_squared": 5.756358238717874e-05,
+    "tracking_objective_better_than_own": 120
+  }
+}

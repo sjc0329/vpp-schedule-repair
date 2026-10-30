@@ -1,0 +1,28 @@
+{
+  "reverified_configurations": 42,
+  "frozen_evidence_unchanged": true,
+  "solver_source_matches_execution_manifest": true,
+  "internal_modification_increase_count": 3,
+  "max_internal_modification_increase": 8.095995380589898,
+  "max_internal_modification_decrease": 10.309037027690252,
+  "maximum_recorded_final_cost_gap": 5.115907697472721e-13,
+  "release_sha256": {
+    "results\\pilot_cost_tiebreak\\cases\\ECON-1.json": "c42d401744a112e814f76cd775ca66933b32d4a2590e546ba1bc2aefcdb785e3",
+    "results\\pilot_cost_tiebreak\\cases\\ECON-2.json": "32c139b02fdb028810c042396888e14dc34d6c75123128559adb3e15465bcafa",
+    "results\\pilot_cost_tiebreak\\cases\\ECON-3.json": "e7b5dc7555dbf537fc77045f4f15081dd3a05e9116d83205648cb35d72e321bd",
+    "results\\pilot_cost_tiebreak\\cases\\SCOPE-1.json": "1ae46b22cc3883d483f7c89471a0d5e8b00751e82e6f0c5e6b57296d0f3e9489",
+    "results\\pilot_cost_tiebreak\\cases\\SCOPE-2.json": "67b9c1a3112b51e9acb53a09ab1c31d8030295503a1b5fa8d1bb14c42109a42b",
+    "results\\pilot_cost_tiebreak\\cases\\SCOPE-3.json": "a3ffa3b8c14bf4d59bf897454254326f9c603cbdf6e8897a7b5d28c6ff822c17",
+    "results\\pilot_cost_tiebreak\\cases\\TIME-1.json": "398d4691f53dec146728b3665ab4cecfdf4072d44de250119237a437430754e8",
+    "results\\pilot_cost_tiebreak\\cases\\TIME-2.json": "4e422946538ed5e5a362664f80c8dca9a8cd5641ddef78b1b8a552c3800fc36d",
+    "results\\pilot_cost_tiebreak\\cases\\TIME-3.json": "7295106b64ec5d70476c80b282550a3cc03526ad9bbec342f43e292037a764d2",
+    "results\\pilot_cost_tiebreak\\manifest.json": "44d14161671e1fc030b36655c22c4c5c821939a87c371f12e56c72aaa4c32a22",
+    "results\\pilot_cost_tiebreak\\summary.json": "63b6c7ee2e4418c59c4b5c2626a9b86eb9b7fb1900a0f16ebcabf3017b5ec38b",
+    "results\\pilot_cost_tiebreak\\comparison.csv": "72a6a40cd40ede835f5247db02b6d4697b61c08dffcbb8afac17022849d751ad",
+    "run_mechanism_validation.py": "5c5ff48030aea5a5fac8039dc21f6fb94fd6051fd741e914b2cac43c3754496b",
+    "audit_cost_refinement.py": "57855fdf5e29c180796c2225fea78284988746dd001d0cd792061fb894515577",
+    "run_pilot.py": "2a26e6780bd1fa52e16143c3a5a4415743920a3ac7a529b25c02b4f8c07aa7cb",
+    "README.md": "68f91ea4697cf905ac692213d6d3db1bae6d7a08f7e0a1a2706ba2e09c691b29",
+    "RESEARCH_SPEC.md": "31bd3800e0bbdb84fc3a41b491e4e133938d566a4ba6e5b7c2397d44d358d439"
+  }
+}

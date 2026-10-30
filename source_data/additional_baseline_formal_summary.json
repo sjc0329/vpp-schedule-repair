@@ -1,0 +1,62 @@
+{
+  "cases": 60,
+  "outputs": 540,
+  "solver_calls": 720,
+  "original_evidence_unchanged": true,
+  "comparisons": {
+    "segan": {
+      "pairs": 180,
+      "first_pass_optimal": 180,
+      "baseline_d": 4.4171226764759846,
+      "own_d": 4.417122676476081,
+      "d_reduction_percent": -2.1917310167294377e-12,
+      "baseline_extra": 0.2528396425475786,
+      "own_extra": 0.25377666679837285,
+      "own_minus_baseline_cost": 0.0009370242507884541,
+      "baseline_n": 1.3333333333333333,
+      "own_n": 0.55,
+      "baseline_n_engineering": 1.3333333333333333,
+      "own_n_engineering": 0.55,
+      "own_d_lower": 0,
+      "own_d_close": 180,
+      "own_d_higher": 0,
+      "total_solver_seconds": 29.397812702925876
+    },
+    "settlement_calibrated": {
+      "pairs": 180,
+      "first_pass_optimal": 180,
+      "baseline_d": 5.248025779122008,
+      "own_d": 4.417122676476081,
+      "d_reduction_percent": 15.832679518295665,
+      "baseline_extra": 6.315935428978669e-16,
+      "own_extra": 0.25377666679837285,
+      "own_minus_baseline_cost": 0.2537766667983874,
+      "baseline_n": 1.7222222222222223,
+      "own_n": 0.55,
+      "baseline_n_engineering": 1.7222222222222223,
+      "own_n_engineering": 0.55,
+      "own_d_lower": 62,
+      "own_d_close": 118,
+      "own_d_higher": 0,
+      "total_solver_seconds": 22.40177070093341
+    },
+    "settlement_source": {
+      "pairs": 180,
+      "first_pass_optimal": 180,
+      "baseline_d": 4.51140130148254,
+      "own_d": 4.417122676476081,
+      "d_reduction_percent": 2.0897858271991083,
+      "baseline_extra": 0.1709121313784794,
+      "own_extra": 0.25377666679837285,
+      "own_minus_baseline_cost": 0.08286453542001482,
+      "baseline_n": 2.0,
+      "own_n": 0.55,
+      "baseline_n_engineering": 2.0,
+      "own_n_engineering": 0.55,
+      "own_d_lower": 43,
+      "own_d_close": 137,
+      "own_d_higher": 0,
+      "total_solver_seconds": 20.88385639875196
+    }
+  }
+}

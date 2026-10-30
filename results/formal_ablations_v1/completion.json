@@ -1,0 +1,8 @@
+{
+  "configurations": 540,
+  "new_solver_calls": 1080,
+  "optimal_new_phases": 1080,
+  "valid": 540,
+  "all_new_phases_optimal_configurations": 540,
+  "elapsed_seconds": 789.2467253999785
+}

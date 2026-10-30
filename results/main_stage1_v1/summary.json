@@ -1,0 +1,13 @@
+{
+  "stage": "Own-method main experiment, first event-strength batch",
+  "planned_cases": 36,
+  "planned_configurations": 144,
+  "completed_configurations": 144,
+  "verified_plans": 144,
+  "errors": [],
+  "recorded_solver_calls": 360,
+  "all_completed": true,
+  "elapsed_seconds": 94.33199930004776,
+  "nominal_plans_recomputed": false,
+  "note": "Strength variants share a frozen plan; not 36 independent daily profiles"
+}

@@ -1,0 +1,19 @@
+{
+  "cases": 13,
+  "output_configurations": 156,
+  "solver_calls_recounted": 234,
+  "additional_solver_calls": 0,
+  "independently_reverified": true,
+  "first_pass_optimal": 156,
+  "max_objective_error": 3.524291969370097e-12,
+  "original_files_unchanged": 3251,
+  "backup_diagnostics": {
+    "backup_accepted": 55,
+    "backup_rejected_infeasible": 23,
+    "backup_other_status": 0,
+    "n_lower": 38,
+    "n_equal": 40,
+    "n_higher": 0,
+    "unchanged_candidate_accepted": 0
+  }
+}

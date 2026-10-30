@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using its code or constructed data."
+type: software
+title: "VPP schedule repair: code, constructed data, and experimental evidence"
+authors:
+  - family-names: Chen
+    given-names: Fei
+  - family-names: Sun
+    given-names: Jiancheng
+repository-code: "https://github.com/sjc0329/vpp-schedule-repair"
+url: "https://github.com/sjc0329/vpp-schedule-repair"
+abstract: "Evidence and plotting sources for budget-constrained schedule repair and resource coordination in virtual power plants."
