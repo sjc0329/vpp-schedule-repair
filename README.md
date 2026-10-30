@@ -52,10 +52,12 @@ new solves. See `docs/REPRODUCIBILITY.md` for rerun dependencies and safeguards.
 
 ## Status and citation
 
-This is a local upload candidate. A GitHub remote has been supplied by the authors;
-this package has not yet been uploaded or archived by this preparation step.
-No Zenodo DOI or acceptance/publication status is asserted. `CITATION.cff` provides
-author and repository metadata. The authors have approved the licenses below.
+The code and numerical evidence are publicly available in this repository.
+The manuscript evidence snapshot is commit
+[`d8f2859`](https://github.com/sjc0329/vpp-schedule-repair/tree/d8f285987d9e45640b34feab85f30babe67afb41).
+Subsequent documentation updates do not change that reference snapshot.
+`CITATION.cff` provides author and repository metadata. The authors have approved
+the licenses below. No article acceptance status or archival DOI is asserted.
 
 ## Provenance
 
