@@ -1,51 +1,30 @@
 # Reproducibility guide
 
-## Environments
+## Core distribution
 
-The accepted numerical environment used Windows, CPython 3.11, NumPy 1.24.3,
-HiGHS/highspy 1.15.1 and PySCIPOpt 6.3.0 with SCIP 10.0.2. The requirements files
-record Python dependencies; separately check the SCIP backend version reported by
-your installation. Solver ties, timings and numerical residuals can vary by platform.
+The current branch contains the model and baseline source, 85 event-state inputs, and saved numerical summaries. These inputs include physical conditions and published references. The data in `source_data/` and `tables/` support checking the reported means, paired differences, and budget thresholds. CSV and JSON records can be read without installing solvers.
 
-In a dedicated Python environment, install `requirements-baselines.txt` to obtain
-the recorded Python versions. Requirements installation is separate from inspection.
+Run from the repository root:
 
-## Non-solving inspection
-
-From the repository root run `python verify_release.py`. This uses only the Python
-standard library and checks all distributed files against SHA-256 hashes.
-CSV summaries in `tables/` and per-configuration records in `results/` can be read
-without importing the solvers. Historical scripts named `audit_*.py` may write audit
-files or reconstruct models; do not assume all of them are read-only checks.
-
-## Figures
-
-In MATLAB R2024b, from the repository root run:
-
-```matlab
-addpath('matlab'); make_figures
+```text
+python -B verify_release.py
 ```
 
-This reads saved CSV files and rewrites the Figure 2–5 outputs in `figures/`.
-It does not call an optimizer. Run it in a working copy to retain the archived
-outputs. Figure 1 is edited in draw.io using `figures/figure1_framework_v2.drawio`.
+This read-only check validates the 147 checksummed payload files. It performs no optimization. The checksum manifest itself is excluded from its own checksum map.
 
-## Optimization entry points
+## Complete experimental snapshot
 
-The supplied runners are historical stage entry points, not a single clean-build
-pipeline. Their overwrite guards intentionally reject existing evidence directories.
-Do not run them directly in the archived distribution. Use a separate working copy;
-read each runner's DATA/OUT paths and input assertions before preparing fresh stage
-directories. Preserve upstream dependencies and their recorded checksums.
+For the historical batch runners, cached economic references, complete solution trajectories, and model-update audit records, use manuscript evidence commit `d8f285987d9e45640b34feab85f30babe67afb41`:
 
-| Entry point | Upstream evidence |
-|---|---|
-| `run_main_stage1.py` | Qualified formal templates and their audit |
-| `run_main_stage2.py` | Formal templates and nominal publications |
-| `run_tracking_comparison.py` | Main-batch cases and frozen calibration |
-| `run_scalar_comparison.py` | Main-batch cases and frozen calibration |
-| `run_formal_ablations.py` | Main-batch cases and full-method results |
-| `run_parameter_sensitivity.py` | Main batches and saved original-budget configurations |
+```text
+git clone https://github.com/sjc0329/vpp-schedule-repair.git vpp-schedule-repair-full
+git -C vpp-schedule-repair-full checkout d8f285987d9e45640b34feab85f30babe67afb41
+```
 
-This packaging step performed no fresh solves. Saved results support inspection
-of the reported experiments; a clean-room end-to-end rerun remains unvalidated.
+Use a separate working copy for execution. The historical runners protect saved outputs from being overwritten and consume earlier stage records. Read each runner's input and output paths before preparing new output directories. The two adaptation source files retained in the core branch also refer to historical calibration and main-batch records; execute their original workflow from the complete snapshot.
+
+## Recorded environment
+
+Windows, CPython 3.11, NumPy 1.24.3, HiGHS/highspy 1.15.1, PySCIPOpt 6.3.0, and SCIP 10.0.2. The requirements files record the Python dependencies; verify the SCIP backend version in the execution environment. Solver ties and timings can vary by platform.
+
+The core-branch curation changed file organization and documentation only. It did not rerun optimization or change numerical evidence. MATLAB scripts, rendered figures, editable figure sources, progress files, and intermediate solve records are excluded from the current core distribution; the complete historical commit remains accessible. Historical whole-workspace provenance hashes in that snapshot describe the original working environment; the current distribution manifest checks the files in the selected distribution.
